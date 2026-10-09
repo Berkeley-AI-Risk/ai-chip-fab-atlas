@@ -1,0 +1,521 @@
+{
+  "schema": "chip-fab-atlas-catalogue-concordance-1.0",
+  "review_date": "2026-08-25",
+  "reviewer": "AI Chip Fab Atlas research team, with a fresh-context record-level recheck",
+  "display_order": [
+    "wikipedia_fab_list",
+    "wikidata",
+    "chip_sense",
+    "india_semiconductor_tracker"
+  ],
+  "atlas": {
+    "path": "data/atlas.json",
+    "sha256": "e9c838233ab6572b9851acbd714eea8f3e15defa20e379871ab4f824ecedf19e",
+    "physical_campus_count": 31
+  },
+  "atlas_hash_note": "This concordance was reviewed against the August 25, 2026 31-campus release. If the canonical Atlas changes, the crosswalk must be re-reviewed and its bound hash updated.",
+  "match_rule": {
+    "displayed": "same_complex or module_within_complex",
+    "same_complex": "The external record identifies the same continuous physical campus.",
+    "module_within_complex": "The external record identifies a named fab, phase, or module within the same continuous physical campus.",
+    "coarse_locality": "The external record identifies only an operator and city, region, cluster, or fab family and cannot distinguish the Atlas campus from nearby alternatives.",
+    "interpretation": "Concordance is an interoperability cross-reference, not independent evidence of process capability, AI relevance, lifecycle, or product allocation. Only positive exact-campus matches are displayed in the PDF."
+  },
+  "catalogues": {
+    "wikipedia_fab_list": {
+      "display_name": "Wikipedia fab list",
+      "snapshot_id": "oldid 1370451124",
+      "snapshot_date": "2026-08-21T04:44:05Z",
+      "snapshot_url": "https://en.wikipedia.org/w/index.php?title=List_of_semiconductor_fabrication_plants&oldid=1370451124#Open_plants",
+      "license": "CC BY-SA 4.0",
+      "audit_result": {
+        "exact_campus_count": 24,
+        "coarse_locality_count": 0
+      }
+    },
+    "chip_sense": {
+      "display_name": "Chip Sense",
+      "snapshot_id": "commit 93d22afe9e1309a7bebd6c7c96541f069f1d67ac",
+      "snapshot_url": "https://github.com/aminalav/chip-sense/blob/93d22afe9e1309a7bebd6c7c96541f069f1d67ac/src/data/fab-sites.json",
+      "snapshot_sha256": "7cea724fb4331a32c793db7ea2c00707b7a0d83daaa168a92151385dff219156",
+      "license": "MIT repository license; third-party notices remain applicable",
+      "audit_result": {
+        "exact_campus_count": 9,
+        "coarse_locality_count": 5
+      },
+      "match_note": "Chip Sense matches rest on record labels. Its pins are two-decimal, city-level approximations; for the nine exact matches they lie 0.7 to 54.8 km from the Atlas coordinate, and five labels give only operator and city."
+    },
+    "wikidata": {
+      "display_name": "Wikidata",
+      "snapshot_id": "per-item permanent revisions listed below",
+      "snapshot_url": "https://www.wikidata.org/wiki/Q4168959",
+      "license": "CC0 1.0",
+      "audit_result": {
+        "exact_campus_count": 6,
+        "exact_external_record_count": 7,
+        "coarse_locality_count": 0
+      }
+    },
+    "india_semiconductor_tracker": {
+      "display_name": "India Semiconductor Tracker",
+      "snapshot_id": "commit 4d36dae28b2f25c2ffc8236ca1246142a79ce324",
+      "snapshot_url": "https://github.com/pranaykotas/india-semiconductor-tracker/blob/4d36dae28b2f25c2ffc8236ca1246142a79ce324/data/facilities.yml",
+      "snapshot_sha256": "986dd8d75d3537edcbf225eb4546ce02b80b981e82d3f0d7f6bc1d4c2bc73c03",
+      "license": "CC BY 4.0",
+      "audit_result": {
+        "exact_campus_count": 1,
+        "coarse_locality_count": 0
+      }
+    }
+  },
+  "campus_matches": {
+    "AIFAB-001": [
+      {
+        "catalogue_id": "wikipedia_fab_list",
+        "match_class": "module_within_complex",
+        "external_id": "TSMC | Fab 15 (P5) | Taichung",
+        "external_label": "TSMC Fab 15 phase P5",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_semiconductor_fabrication_plants&oldid=1370451124#Open_plants",
+        "display_on_profile": true,
+        "basis": "OpenStreetMap maps the P5 utility plant and the F15B P6 and P7 buildings inside its Fab 15B site, and F15A P2 and the P1/P2 utility plant inside its Fab 15A site. P5's 2016 start follows the March 2015 F15B land lease in TSMC's 20-F. The Fab 15 family row and rows P1-P4 are not matched."
+      }
+    ],
+    "AIFAB-002": [
+      {
+        "catalogue_id": "wikipedia_fab_list",
+        "match_class": "module_within_complex",
+        "external_id": "TSMC | Fab 18 (P1-P3), Fab 18 (P4-P6) | Southern Taiwan Science Park",
+        "external_label": "TSMC Fab 18 phases P1-P6",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_semiconductor_fabrication_plants&oldid=1370451124#Open_plants",
+        "display_on_profile": true
+      },
+      {
+        "catalogue_id": "chip_sense",
+        "match_class": "coarse_locality",
+        "external_id": "fab-tsmc-sc",
+        "external_label": "TSMC Southern Taiwan (Tainan)",
+        "url": "https://github.com/aminalav/chip-sense/blob/93d22afe9e1309a7bebd6c7c96541f069f1d67ac/src/data/fab-sites.json#L3-L10",
+        "display_on_profile": false,
+        "basis": "One regional pin cannot distinguish Fab 18 from Fab 14B."
+      }
+    ],
+    "AIFAB-003": [
+      {
+        "catalogue_id": "wikipedia_fab_list",
+        "match_class": "module_within_complex",
+        "external_id": "TSMC | Fab 21 (P1/P2/P3) | Phoenix",
+        "external_label": "TSMC Fab 21 phases P1-P3",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_semiconductor_fabrication_plants&oldid=1370451124#Open_plants",
+        "display_on_profile": true
+      },
+      {
+        "catalogue_id": "wikidata",
+        "match_class": "same_complex",
+        "external_id": "Q135913497",
+        "external_label": "Fab 21",
+        "url": "https://www.wikidata.org/w/index.php?title=Q135913497&oldid=2485030743",
+        "display_on_profile": true,
+        "coordinate_distance_m": 568
+      },
+      {
+        "catalogue_id": "chip_sense",
+        "match_class": "same_complex",
+        "external_id": "fab-tsmc-az",
+        "external_label": "TSMC Arizona",
+        "url": "https://github.com/aminalav/chip-sense/blob/93d22afe9e1309a7bebd6c7c96541f069f1d67ac/src/data/fab-sites.json#L13-L20",
+        "display_on_profile": true,
+        "basis": "Label-based match on 'TSMC — Arizona (Fab 21)'. The two-decimal Chip Sense pin is approximate, about 55 km from the Atlas coordinate."
+      }
+    ],
+    "AIFAB-004": [],
+    "AIFAB-005": [],
+    "AIFAB-006": [
+      {
+        "catalogue_id": "wikipedia_fab_list",
+        "match_class": "same_complex",
+        "external_id": "GlobalFoundries | Fab 8 | Malta, New York",
+        "external_label": "GlobalFoundries Fab 8",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_semiconductor_fabrication_plants&oldid=1370451124#Open_plants",
+        "display_on_profile": true
+      }
+    ],
+    "AIFAB-007": [
+      {
+        "catalogue_id": "wikipedia_fab_list",
+        "match_class": "module_within_complex",
+        "external_id": "Samsung | Pyeongtaek / S5-Line | Pyeongtaek",
+        "external_label": "Samsung Pyeongtaek / S5-Line",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_semiconductor_fabrication_plants&oldid=1370451124#Open_plants",
+        "display_on_profile": true
+      }
+    ],
+    "AIFAB-008": [
+      {
+        "catalogue_id": "wikipedia_fab_list",
+        "match_class": "module_within_complex",
+        "external_id": "Samsung | V1-Line/S4-Line/S3-Line | Hwaseong",
+        "external_label": "Samsung Hwaseong modules",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_semiconductor_fabrication_plants&oldid=1370451124#Open_plants",
+        "display_on_profile": true
+      },
+      {
+        "catalogue_id": "chip_sense",
+        "match_class": "same_complex",
+        "external_id": "fab-samsung-hwaseong",
+        "external_label": "Samsung Hwaseong",
+        "url": "https://github.com/aminalav/chip-sense/blob/93d22afe9e1309a7bebd6c7c96541f069f1d67ac/src/data/fab-sites.json#L33-L40",
+        "display_on_profile": true,
+        "basis": "Label-based match: 'Samsung — Hwaseong' gives only operator and city, and Samsung has one Atlas campus there. The two-decimal Chip Sense pin is approximate, about 8 km from the Atlas coordinate."
+      }
+    ],
+    "AIFAB-009": [
+      {
+        "catalogue_id": "wikipedia_fab_list",
+        "match_class": "module_within_complex",
+        "external_id": "SMIC-SMSC | SN1 | Shanghai",
+        "external_label": "SMIC-SMSC SN1",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_semiconductor_fabrication_plants&oldid=1370451124#Open_plants",
+        "display_on_profile": true
+      },
+      {
+        "catalogue_id": "chip_sense",
+        "match_class": "coarse_locality",
+        "external_id": "fab-smic-shanghai",
+        "external_label": "SMIC Shanghai cluster",
+        "url": "https://github.com/aminalav/chip-sense/blob/93d22afe9e1309a7bebd6c7c96541f069f1d67ac/src/data/fab-sites.json#L213-L220",
+        "display_on_profile": false,
+        "basis": "The cluster pin cannot distinguish SMIC Southern from Lingang."
+      }
+    ],
+    "AIFAB-010": [
+      {
+        "catalogue_id": "wikipedia_fab_list",
+        "match_class": "same_complex",
+        "external_id": "TSMC | Fab 14 (B) | Tainan",
+        "external_label": "TSMC Fab 14B",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_semiconductor_fabrication_plants&oldid=1370451124#Open_plants",
+        "display_on_profile": true
+      },
+      {
+        "catalogue_id": "chip_sense",
+        "match_class": "coarse_locality",
+        "external_id": "fab-tsmc-sc",
+        "external_label": "TSMC Southern Taiwan (Tainan)",
+        "url": "https://github.com/aminalav/chip-sense/blob/93d22afe9e1309a7bebd6c7c96541f069f1d67ac/src/data/fab-sites.json#L3-L10",
+        "display_on_profile": false,
+        "basis": "One regional pin cannot distinguish Fab 14B from Fab 18."
+      }
+    ],
+    "AIFAB-011": [
+      {
+        "catalogue_id": "wikipedia_fab_list",
+        "match_class": "module_within_complex",
+        "external_id": "Samsung | S2-Line | Austin",
+        "external_label": "Samsung Austin S2-Line",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_semiconductor_fabrication_plants&oldid=1370451124#Open_plants",
+        "display_on_profile": true
+      },
+      {
+        "catalogue_id": "chip_sense",
+        "match_class": "same_complex",
+        "external_id": "fab-samsung-austin",
+        "external_label": "Samsung Austin",
+        "url": "https://github.com/aminalav/chip-sense/blob/93d22afe9e1309a7bebd6c7c96541f069f1d67ac/src/data/fab-sites.json#L53-L60",
+        "display_on_profile": true,
+        "basis": "Label-based match: 'Samsung — Austin, Texas' gives only operator and city, and Samsung has one Atlas campus there. The two-decimal Chip Sense pin is approximate, about 11 km from the Atlas coordinate."
+      }
+    ],
+    "AIFAB-012": [
+      {
+        "catalogue_id": "wikipedia_fab_list",
+        "match_class": "module_within_complex",
+        "external_id": "Samsung | S1-Line / Giheung Campus | Giheung/Yongin",
+        "external_label": "Samsung Giheung Campus / S1-Line",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_semiconductor_fabrication_plants&oldid=1370451124#Open_plants",
+        "display_on_profile": true
+      }
+    ],
+    "AIFAB-013": [
+      {
+        "catalogue_id": "wikipedia_fab_list",
+        "match_class": "module_within_complex",
+        "external_id": "Intel | Fab 12/32/42/52/62 | Chandler",
+        "external_label": "Intel Chandler fabs 12/32/42/52/62",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_semiconductor_fabrication_plants&oldid=1370451124#Open_plants",
+        "display_on_profile": true
+      },
+      {
+        "catalogue_id": "wikidata",
+        "match_class": "same_complex",
+        "external_id": "Q113325080",
+        "external_label": "Intel Wafer-Fab Arizona",
+        "url": "https://www.wikidata.org/w/index.php?title=Q113325080&oldid=1694257473",
+        "display_on_profile": true,
+        "coordinate_distance_m": 329
+      }
+    ],
+    "AIFAB-014": [
+      {
+        "catalogue_id": "wikipedia_fab_list",
+        "match_class": "module_within_complex",
+        "external_id": "Intel | D1X | Hillsboro",
+        "external_label": "Intel D1X",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_semiconductor_fabrication_plants&oldid=1370451124#Open_plants",
+        "display_on_profile": true
+      },
+      {
+        "catalogue_id": "wikidata",
+        "match_class": "same_complex",
+        "external_id": "Q113380692",
+        "external_label": "Intel Wafer-Fab Oregon",
+        "url": "https://www.wikidata.org/w/index.php?title=Q113380692&oldid=1694236879",
+        "display_on_profile": true,
+        "coordinate_distance_m": 101
+      },
+      {
+        "catalogue_id": "chip_sense",
+        "match_class": "same_complex",
+        "external_id": "fab-intel-or",
+        "external_label": "Intel Oregon",
+        "url": "https://github.com/aminalav/chip-sense/blob/93d22afe9e1309a7bebd6c7c96541f069f1d67ac/src/data/fab-sites.json#L143-L150",
+        "display_on_profile": true,
+        "basis": "Label-based match on 'Intel — Oregon (Ronler Acres)'. The two-decimal Chip Sense pin is approximate, about 6 km from the Atlas coordinate."
+      }
+    ],
+    "AIFAB-015": [
+      {
+        "catalogue_id": "wikipedia_fab_list",
+        "match_class": "module_within_complex",
+        "external_id": "Intel | Fab 24 | Leixlip",
+        "external_label": "Intel Fab 24",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_semiconductor_fabrication_plants&oldid=1370451124#Open_plants",
+        "display_on_profile": true
+      },
+      {
+        "catalogue_id": "wikidata",
+        "match_class": "same_complex",
+        "external_id": "Q113324961",
+        "external_label": "Intel Wafer-Fab Ireland",
+        "url": "https://www.wikidata.org/w/index.php?title=Q113324961&oldid=1694261236",
+        "display_on_profile": true,
+        "coordinate_distance_m": 306
+      },
+      {
+        "catalogue_id": "chip_sense",
+        "match_class": "same_complex",
+        "external_id": "fab-intel-ie",
+        "external_label": "Intel Ireland",
+        "url": "https://github.com/aminalav/chip-sense/blob/93d22afe9e1309a7bebd6c7c96541f069f1d67ac/src/data/fab-sites.json#L153-L160",
+        "display_on_profile": true,
+        "basis": "Label-based match: 'Intel — Leixlip, Ireland' gives only operator and city, and Intel has one Atlas campus there. The two-decimal Chip Sense pin is approximate, about 2 km from the Atlas coordinate."
+      }
+    ],
+    "AIFAB-016": [
+      {
+        "catalogue_id": "wikipedia_fab_list",
+        "match_class": "same_complex",
+        "external_id": "Intel | Fab 28 | Kiryat Gat",
+        "external_label": "Intel Fab 28",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_semiconductor_fabrication_plants&oldid=1370451124#Open_plants",
+        "display_on_profile": true
+      },
+      {
+        "catalogue_id": "wikidata",
+        "match_class": "same_complex",
+        "external_id": "Q113325038",
+        "external_label": "Intel Wafer-Fab Israel",
+        "url": "https://www.wikidata.org/w/index.php?title=Q113325038&oldid=1694261910",
+        "display_on_profile": true,
+        "coordinate_distance_m": 87
+      },
+      {
+        "catalogue_id": "chip_sense",
+        "match_class": "same_complex",
+        "external_id": "fab-intel-israel",
+        "external_label": "Intel Israel",
+        "url": "https://github.com/aminalav/chip-sense/blob/93d22afe9e1309a7bebd6c7c96541f069f1d67ac/src/data/fab-sites.json#L163-L170",
+        "display_on_profile": true,
+        "basis": "Label-based match: 'Intel — Kiryat Gat' gives only operator and city, and Intel has one Atlas campus there. The two-decimal Chip Sense pin is approximate, about 2.5 km from the Atlas coordinate."
+      }
+    ],
+    "AIFAB-018": [
+      {
+        "catalogue_id": "wikipedia_fab_list",
+        "match_class": "same_complex",
+        "external_id": "Japan Advanced Semiconductor Manufacturing | Kumamoto | Japan",
+        "external_label": "JASM Kumamoto",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_semiconductor_fabrication_plants&oldid=1370451124#Open_plants",
+        "display_on_profile": true
+      },
+      {
+        "catalogue_id": "chip_sense",
+        "match_class": "same_complex",
+        "external_id": "fab-tsmc-jp",
+        "external_label": "TSMC/JASM Japan",
+        "url": "https://github.com/aminalav/chip-sense/blob/93d22afe9e1309a7bebd6c7c96541f069f1d67ac/src/data/fab-sites.json#L23-L30",
+        "display_on_profile": true,
+        "basis": "Label-based match on 'TSMC — Kumamoto (JASM)'. The two-decimal Chip Sense pin is approximate, about 0.7 km from the Atlas coordinate."
+      }
+    ],
+    "AIFAB-019": [
+      {
+        "catalogue_id": "wikipedia_fab_list",
+        "match_class": "module_within_complex",
+        "external_id": "Samsung | S6-Line | Taylor",
+        "external_label": "Samsung Taylor S6-Line",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_semiconductor_fabrication_plants&oldid=1370451124#Open_plants",
+        "display_on_profile": true
+      },
+      {
+        "catalogue_id": "chip_sense",
+        "match_class": "same_complex",
+        "external_id": "fab-samsung-taylor",
+        "external_label": "Samsung Taylor",
+        "url": "https://github.com/aminalav/chip-sense/blob/93d22afe9e1309a7bebd6c7c96541f069f1d67ac/src/data/fab-sites.json#L43-L50",
+        "display_on_profile": true,
+        "basis": "Label-based match: 'Samsung — Taylor, Texas' gives only operator and city, and Samsung has one Atlas campus there. The two-decimal Chip Sense pin is approximate, about 27 km from the Atlas coordinate."
+      }
+    ],
+    "AIFAB-021": [
+      {
+        "catalogue_id": "wikipedia_fab_list",
+        "match_class": "same_complex",
+        "external_id": "Hua Hong Semiconductor (HLMC) | HH Fab6 | Shanghai, Kangqiao",
+        "external_label": "Huali/HLMC HH Fab6",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_semiconductor_fabrication_plants&oldid=1370451124#Open_plants",
+        "display_on_profile": true
+      }
+    ],
+    "AIFAB-022": [],
+    "AIFAB-023": [],
+    "AIFAB-024": [],
+    "AIFAB-025": [
+      {
+        "catalogue_id": "wikipedia_fab_list",
+        "match_class": "module_within_complex",
+        "external_id": "TSMC | Fab 12 (P4), Fab 12 (P5), Fab 12 (P6) | Hsinchu",
+        "external_label": "TSMC Fab 12 phases P4-P6",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_semiconductor_fabrication_plants&oldid=1370451124#Open_plants",
+        "display_on_profile": true,
+        "basis": "OpenStreetMap places buildings P4, P6, and P7 inside the Fab 12 polygon holding TSMC's Fab 12B map point, with Fab 12A and P8 outside; TSMC's 20-F groups Fab 12 Phases V-VII in one land lease."
+      }
+    ],
+    "AIFAB-026": [
+      {
+        "catalogue_id": "wikipedia_fab_list",
+        "match_class": "module_within_complex",
+        "external_id": "GlobalFoundries | Fab 1 Module 1/2/3 | Dresden",
+        "external_label": "GlobalFoundries Fab 1 modules 1-3",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_semiconductor_fabrication_plants&oldid=1370451124#Open_plants",
+        "display_on_profile": true
+      },
+      {
+        "catalogue_id": "wikidata",
+        "match_class": "same_complex",
+        "external_id": "Q115408033",
+        "external_label": "GlobalFoundries Fab 1",
+        "url": "https://www.wikidata.org/w/index.php?title=Q115408033&oldid=1820322161",
+        "display_on_profile": true,
+        "coordinate_distance_m": 6
+      },
+      {
+        "catalogue_id": "wikidata",
+        "match_class": "same_complex",
+        "external_id": "Q124260648",
+        "external_label": "Globalfoundries Dresden",
+        "url": "https://www.wikidata.org/w/index.php?title=Q124260648&oldid=2289469800",
+        "display_on_profile": false,
+        "coordinate_distance_m": 9,
+        "basis": "Duplicate Wikidata facility item for the same Atlas campus."
+      },
+      {
+        "catalogue_id": "chip_sense",
+        "match_class": "same_complex",
+        "external_id": "fab-gf-dresden",
+        "external_label": "GlobalFoundries Dresden",
+        "url": "https://github.com/aminalav/chip-sense/blob/93d22afe9e1309a7bebd6c7c96541f069f1d67ac/src/data/fab-sites.json#L233-L240",
+        "display_on_profile": true,
+        "basis": "Label-based match on 'GlobalFoundries — Dresden (Fab 1)'. The two-decimal Chip Sense pin is approximate, about 8 km from the Atlas coordinate."
+      }
+    ],
+    "AIFAB-027": [],
+    "AIFAB-028": [
+      {
+        "catalogue_id": "wikipedia_fab_list",
+        "match_class": "same_complex",
+        "external_id": "SMIC | Jingcheng | Beijing",
+        "external_label": "SMIC Jingcheng",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_semiconductor_fabrication_plants&oldid=1370451124#Open_plants",
+        "display_on_profile": true
+      },
+      {
+        "catalogue_id": "chip_sense",
+        "match_class": "coarse_locality",
+        "external_id": "fab-smic-beijing",
+        "external_label": "SMIC Beijing",
+        "url": "https://github.com/aminalav/chip-sense/blob/93d22afe9e1309a7bebd6c7c96541f069f1d67ac/src/data/fab-sites.json#L223-L230",
+        "display_on_profile": false,
+        "basis": "The city-scale record does not establish the exact Jingcheng campus."
+      }
+    ],
+    "AIFAB-029": [
+      {
+        "catalogue_id": "wikipedia_fab_list",
+        "match_class": "same_complex",
+        "external_id": "SMIC | Shenzhen 12-inch project | Shenzhen",
+        "external_label": "SMIC Shenzhen 12-inch project",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_semiconductor_fabrication_plants&oldid=1370451124#Open_plants",
+        "display_on_profile": true
+      }
+    ],
+    "AIFAB-030": [
+      {
+        "catalogue_id": "wikipedia_fab_list",
+        "match_class": "same_complex",
+        "external_id": "SMIC | Lingang | Shanghai",
+        "external_label": "SMIC Lingang",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_semiconductor_fabrication_plants&oldid=1370451124#Open_plants",
+        "display_on_profile": true
+      },
+      {
+        "catalogue_id": "chip_sense",
+        "match_class": "coarse_locality",
+        "external_id": "fab-smic-shanghai",
+        "external_label": "SMIC Shanghai cluster",
+        "url": "https://github.com/aminalav/chip-sense/blob/93d22afe9e1309a7bebd6c7c96541f069f1d67ac/src/data/fab-sites.json#L213-L220",
+        "display_on_profile": false,
+        "basis": "The cluster pin cannot distinguish Lingang from SMIC Southern."
+      }
+    ],
+    "AIFAB-031": [
+      {
+        "catalogue_id": "wikipedia_fab_list",
+        "match_class": "same_complex",
+        "external_id": "SMIC | Xiqing | Tianjin",
+        "external_label": "SMIC Xiqing",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_semiconductor_fabrication_plants&oldid=1370451124#Open_plants",
+        "display_on_profile": true
+      }
+    ],
+    "AIFAB-032": [
+      {
+        "catalogue_id": "wikipedia_fab_list",
+        "match_class": "module_within_complex",
+        "external_id": "Hua Hong Semiconductor | HH Fab7 | Wuxi",
+        "external_label": "Hua Hong HH Fab7",
+        "url": "https://en.wikipedia.org/w/index.php?title=List_of_semiconductor_fabrication_plants&oldid=1370451124#Open_plants",
+        "display_on_profile": true
+      }
+    ],
+    "AIFAB-033": [
+      {
+        "catalogue_id": "india_semiconductor_tracker",
+        "match_class": "same_complex",
+        "external_id": "tata-psmc-dholera",
+        "external_label": "Tata-PSMC Dholera Semiconductor Fab",
+        "url": "https://github.com/pranaykotas/india-semiconductor-tracker/blob/4d36dae28b2f25c2ffc8236ca1246142a79ce324/data/facilities.yml#L63-L77",
+        "display_on_profile": true
+      }
+    ]
+  }
+}

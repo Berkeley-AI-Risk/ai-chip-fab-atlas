@@ -1,0 +1,37 @@
+.DS_Store
+Thumbs.db
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+.ipynb_checkpoints/
+.idea/
+.vscode/
+*.swp
+
+# Rights-managed local image plates (a directory or a symlink to one).
+assets/campus-imagery
+
+# Build intermediates and local release outputs. The compact edition is
+# committed at the repository root as ai-chip-fab-atlas.pdf; the full-resolution
+# edition is attached to GitHub Releases.
+build/
+output/*.pdf
+report/*.pdf
+report/*.aux
+report/*.bcf
+report/*.bbl
+report/*.blg
+report/*.fdb_latexmk
+report/*.fls
+report/*.log
+report/*.out
+report/*.run.xml
+report/*.toc
+report/*.synctex.gz
+report/*.xdv
+report/edition-*.tex
+report/campus-profiles-*.tex

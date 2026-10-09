@@ -1,0 +1,10 @@
+name: ai-chip-fab-atlas
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - matplotlib
+  - pillow
+  - pypdf>=6,<7
+  - pyproj
+  - pytest

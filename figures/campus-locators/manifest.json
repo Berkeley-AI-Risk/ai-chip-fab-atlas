@@ -1,0 +1,1117 @@
+{
+  "atlas_snapshot_date": "2026-08-25",
+  "inputs": {
+    "atlas": {
+      "path": "data/atlas.json",
+      "sha256": "e9c838233ab6572b9851acbd714eea8f3e15defa20e379871ab4f824ecedf19e"
+    },
+    "base_geography": {
+      "attribution": "Natural Earth 1:110m, public domain",
+      "path": "data/geography/countries.geojson",
+      "sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f"
+    }
+  },
+  "located_physical_campus_count": 31,
+  "maps": [
+    {
+      "campus_id": "AIFAB-001",
+      "campus_name": "Fab 15B",
+      "coordinate_precision": "operator_supplied_map_point",
+      "coordinate_source_id": "AISRC-0211",
+      "height_px": 348,
+      "latitude_wgs84": 24.2118688,
+      "longitude_wgs84": 120.6086166,
+      "marker_offsets_lon_lat": [
+        [
+          120.6086166,
+          24.2118688
+        ]
+      ],
+      "output_path": "figures/campus-locators/aifab-001-world-locator.png",
+      "sha256": "afe09ad87f6aff70eb674cde67e8052b2d9bbe19334c60150bfd2498f2b18885",
+      "width_px": 768
+    },
+    {
+      "campus_id": "AIFAB-002",
+      "campus_name": "Fab 18A/B",
+      "coordinate_precision": "campus_search_anchor",
+      "coordinate_source_id": "AISRC-0080",
+      "height_px": 348,
+      "latitude_wgs84": 23.116316,
+      "longitude_wgs84": 120.264142,
+      "marker_offsets_lon_lat": [
+        [
+          120.264142,
+          23.116316
+        ]
+      ],
+      "output_path": "figures/campus-locators/aifab-002-world-locator.png",
+      "sha256": "c4d85380e9681ccf42faf146bba22129cf4bdd9d8a83f8e8a77800e78c66ee0b",
+      "width_px": 768
+    },
+    {
+      "campus_id": "AIFAB-003",
+      "campus_name": "Arizona campus / corporate Fab 21",
+      "coordinate_precision": "official_address_search_anchor",
+      "coordinate_source_id": "AISRC-0179",
+      "height_px": 348,
+      "latitude_wgs84": 33.774912,
+      "longitude_wgs84": -112.160555,
+      "marker_offsets_lon_lat": [
+        [
+          -112.160555,
+          33.774912
+        ]
+      ],
+      "output_path": "figures/campus-locators/aifab-003-world-locator.png",
+      "sha256": "3adbab1bde2f4d88a2df5f353939d0e1a990b8b1a9170f5ea57b7f55ec85de7c",
+      "width_px": 768
+    },
+    {
+      "campus_id": "AIFAB-004",
+      "campus_name": "Fab 20",
+      "coordinate_precision": "project_vicinity_anchor",
+      "coordinate_source_id": "AISRC-0180",
+      "height_px": 348,
+      "latitude_wgs84": 24.766111,
+      "longitude_wgs84": 121.001806,
+      "marker_offsets_lon_lat": [
+        [
+          121.001806,
+          24.766111
+        ]
+      ],
+      "output_path": "figures/campus-locators/aifab-004-world-locator.png",
+      "sha256": "1cfc7d49ee508d0285f8be0975be944670221a8b1f62d8ed4fbf31319574ac79",
+      "width_px": 768
+    },
+    {
+      "campus_id": "AIFAB-005",
+      "campus_name": "Fab 22",
+      "coordinate_precision": "official_site_event_point",
+      "coordinate_source_id": "AISRC-0198",
+      "height_px": 348,
+      "latitude_wgs84": 22.71279,
+      "longitude_wgs84": 120.30887,
+      "marker_offsets_lon_lat": [
+        [
+          120.30887,
+          22.71279
+        ]
+      ],
+      "output_path": "figures/campus-locators/aifab-005-world-locator.png",
+      "sha256": "c39a909ae32d96bd2ef3cf71913a865dda0280e039b413cf58902ee8290d7758",
+      "width_px": 768
+    },
+    {
+      "campus_id": "AIFAB-006",
+      "campus_name": "Fab 8",
+      "coordinate_precision": "epa_frs_representative_facility_center",
+      "coordinate_source_id": "AISRC-0215",
+      "height_px": 348,
+      "latitude_wgs84": 42.970089,
+      "longitude_wgs84": -73.75437,
+      "marker_offsets_lon_lat": [
+        [
+          -73.75437,
+          42.970089
+        ]
+      ],
+      "output_path": "figures/campus-locators/aifab-006-world-locator.png",
+      "sha256": "6844bd601ed236fdc0f7409fd7f9712e993759e0c69149cbdd168e848515b21e",
+      "width_px": 768
+    },
+    {
+      "campus_id": "AIFAB-007",
+      "campus_name": "Pyeongtaek Campus",
+      "coordinate_precision": "named_campus_area_representative_point",
+      "coordinate_source_id": "AISRC-0182",
+      "height_px": 348,
+      "latitude_wgs84": 37.0355596,
+      "longitude_wgs84": 127.0601548,
+      "marker_offsets_lon_lat": [
+        [
+          127.0601548,
+          37.0355596
+        ]
+      ],
+      "output_path": "figures/campus-locators/aifab-007-world-locator.png",
+      "sha256": "7a7ea7a58303824d19942a0342946a89db9035f23d8ac5c53280432507d29a63",
+      "width_px": 768
+    },
+    {
+      "campus_id": "AIFAB-008",
+      "campus_name": "Hwaseong Campus",
+      "coordinate_precision": "named_campus_area_representative_point",
+      "coordinate_source_id": "AISRC-0184",
+      "height_px": 348,
+      "latitude_wgs84": 37.2185308,
+      "longitude_wgs84": 127.0659624,
+      "marker_offsets_lon_lat": [
+        [
+          127.0659624,
+          37.2185308
+        ]
+      ],
+      "output_path": "figures/campus-locators/aifab-008-world-locator.png",
+      "sha256": "7a7ea7a58303824d19942a0342946a89db9035f23d8ac5c53280432507d29a63",
+      "width_px": 768
+    },
+    {
+      "campus_id": "AIFAB-009",
+      "campus_name": "SMIC Southern SN1/SN2 campus",
+      "coordinate_precision": "osm_feature_representative_point",
+      "coordinate_source_id": "AISRC-0183",
+      "height_px": 348,
+      "latitude_wgs84": 31.217262,
+      "longitude_wgs84": 121.6024705,
+      "marker_offsets_lon_lat": [
+        [
+          121.6024705,
+          31.217262
+        ]
+      ],
+      "output_path": "figures/campus-locators/aifab-009-world-locator.png",
+      "sha256": "357f17ed42fd54a3e057e84aa29072d2c1cbf0cf252dfe3ab6f53f922de49b73",
+      "width_px": 768
+    },
+    {
+      "campus_id": "AIFAB-010",
+      "campus_name": "Fab 14B",
+      "coordinate_precision": "named_fab_component_building_representative_point",
+      "coordinate_source_id": "AISRC-0152",
+      "height_px": 348,
+      "latitude_wgs84": 23.1109711,
+      "longitude_wgs84": 120.2684919,
+      "marker_offsets_lon_lat": [
+        [
+          120.2684919,
+          23.1109711
+        ]
+      ],
+      "output_path": "figures/campus-locators/aifab-010-world-locator.png",
+      "sha256": "c4d85380e9681ccf42faf146bba22129cf4bdd9d8a83f8e8a77800e78c66ee0b",
+      "width_px": 768
+    },
+    {
+      "campus_id": "AIFAB-011",
+      "campus_name": "Austin Campus",
+      "coordinate_precision": "epa_frs_representative_point_air_release_stack",
+      "coordinate_source_id": "AISRC-0216",
+      "height_px": 348,
+      "latitude_wgs84": 30.375,
+      "longitude_wgs84": -97.631386,
+      "marker_offsets_lon_lat": [
+        [
+          -97.631386,
+          30.375
+        ]
+      ],
+      "output_path": "figures/campus-locators/aifab-011-world-locator.png",
+      "sha256": "3535e9ef83920289b85d2c666ae1fe51bda0e036bd6d410cdcd55542f8e30d72",
+      "width_px": 768
+    },
+    {
+      "campus_id": "AIFAB-012",
+      "campus_name": "Giheung Campus",
+      "coordinate_precision": "named_campus_landuse_representative_point",
+      "coordinate_source_id": "AISRC-0154",
+      "height_px": 348,
+      "latitude_wgs84": 37.2288151,
+      "longitude_wgs84": 127.0842349,
+      "marker_offsets_lon_lat": [
+        [
+          127.0842349,
+          37.2288151
+        ]
+      ],
+      "output_path": "figures/campus-locators/aifab-012-world-locator.png",
+      "sha256": "7a7ea7a58303824d19942a0342946a89db9035f23d8ac5c53280432507d29a63",
+      "width_px": 768
+    },
+    {
+      "campus_id": "AIFAB-013",
+      "campus_name": "Arizona / Ocotillo Campus",
+      "coordinate_precision": "epa_frs_address_matched_point_at_campus_edge",
+      "coordinate_source_id": "AISRC-0217",
+      "height_px": 348,
+      "latitude_wgs84": 33.24591,
+      "longitude_wgs84": -111.88146,
+      "marker_offsets_lon_lat": [
+        [
+          -111.88146,
+          33.24591
+        ]
+      ],
+      "output_path": "figures/campus-locators/aifab-013-world-locator.png",
+      "sha256": "730a0d1ac7739dbaed45e86a6d1c759cc6571afbc6712b0838d5e9a8f40e80dd",
+      "width_px": 768
+    },
+    {
+      "campus_id": "AIFAB-014",
+      "campus_name": "Oregon / Gordon Moore Park",
+      "coordinate_precision": "epa_frs_representative_process_unit_point",
+      "coordinate_source_id": "AISRC-0218",
+      "height_px": 348,
+      "latitude_wgs84": 45.543333,
+      "longitude_wgs84": -122.917222,
+      "marker_offsets_lon_lat": [
+        [
+          -122.917222,
+          45.543333
+        ]
+      ],
+      "output_path": "figures/campus-locators/aifab-014-world-locator.png",
+      "sha256": "be5673ed22e9e9cff272ef77118221337edbe0e13c7a30e9468f2bcc46d34d92",
+      "width_px": 768
+    },
+    {
+      "campus_id": "AIFAB-015",
+      "campus_name": "Leixlip campus (Fab 24 / Fab 34)",
+      "coordinate_precision": "regulator_facility_point",
+      "coordinate_source_id": "AISRC-0178",
+      "height_px": 348,
+      "latitude_wgs84": 53.3749,
+      "longitude_wgs84": -6.51258,
+      "marker_offsets_lon_lat": [
+        [
+          -6.51258,
+          53.3749
+        ]
+      ],
+      "output_path": "figures/campus-locators/aifab-015-world-locator.png",
+      "sha256": "39acc5efeddd697324f932a6795f698741067507ff7585f0aa1bb939ce66a284",
+      "width_px": 768
+    },
+    {
+      "campus_id": "AIFAB-016",
+      "campus_name": "Kiryat Gat campus / Fab 28",
+      "coordinate_precision": "regulator_facility_point",
+      "coordinate_source_id": "AISRC-0181",
+      "height_px": 348,
+      "latitude_wgs84": 31.594133,
+      "longitude_wgs84": 34.788711,
+      "marker_offsets_lon_lat": [
+        [
+          34.788711,
+          31.594133
+        ]
+      ],
+      "output_path": "figures/campus-locators/aifab-016-world-locator.png",
+      "sha256": "98e5b63baebcd35c9a5027ee23fcba211f183429c130682cec05622be3b2e273",
+      "width_px": 768
+    },
+    {
+      "campus_id": "AIFAB-018",
+      "campus_name": "JASM Kumamoto campus",
+      "coordinate_precision": "named_facility_area_representative_point",
+      "coordinate_source_id": "AISRC-0093",
+      "height_px": 348,
+      "latitude_wgs84": 32.8865203,
+      "longitude_wgs84": 130.843263,
+      "marker_offsets_lon_lat": [
+        [
+          130.843263,
+          32.8865203
+        ]
+      ],
+      "output_path": "figures/campus-locators/aifab-018-world-locator.png",
+      "sha256": "a51327863f1330e76d36229714b2959c2f38f8a2b51dc0cc8b86b8170740fca4",
+      "width_px": 768
+    },
+    {
+      "campus_id": "AIFAB-019",
+      "campus_name": "Taylor Campus",
+      "coordinate_precision": "named_fab_building_representative_point",
+      "coordinate_source_id": "AISRC-0153",
+      "height_px": 348,
+      "latitude_wgs84": 30.5373961,
+      "longitude_wgs84": -97.4525822,
+      "marker_offsets_lon_lat": [
+        [
+          -97.4525822,
+          30.5373961
+        ]
+      ],
+      "output_path": "figures/campus-locators/aifab-019-world-locator.png",
+      "sha256": "3535e9ef83920289b85d2c666ae1fe51bda0e036bd6d410cdcd55542f8e30d72",
+      "width_px": 768
+    },
+    {
+      "campus_id": "AIFAB-021",
+      "campus_name": "Huali Fab 6",
+      "coordinate_precision": "named_operator_campus_area_representative_point",
+      "coordinate_source_id": "AISRC-0150",
+      "height_px": 348,
+      "latitude_wgs84": 31.0766992,
+      "longitude_wgs84": 121.6134919,
+      "marker_offsets_lon_lat": [
+        [
+          121.6134919,
+          31.0766992
+        ]
+      ],
+      "output_path": "figures/campus-locators/aifab-021-world-locator.png",
+      "sha256": "8541bb9779560e065a371feb00a114b6b8cd9ad9ea643b61e8938c7bdaaa0d2c",
+      "width_px": 768
+    },
+    {
+      "campus_id": "AIFAB-022",
+      "campus_name": "IIM-1",
+      "coordinate_precision": "named_campus_construction_area_representative_point",
+      "coordinate_source_id": "AISRC-0151",
+      "height_px": 348,
+      "latitude_wgs84": 42.7866449,
+      "longitude_wgs84": 141.7069727,
+      "marker_offsets_lon_lat": [
+        [
+          141.7069727,
+          42.7866449
+        ]
+      ],
+      "output_path": "figures/campus-locators/aifab-022-world-locator.png",
+      "sha256": "9ecb0e3b5ad4c26a7a7088f87eb8dfc557dab4a2bd3cc214233edfeda76153d8",
+      "width_px": 768
+    },
+    {
+      "campus_id": "AIFAB-023",
+      "campus_name": "Fab 16",
+      "coordinate_precision": "named_fab_campus_landuse_representative_point",
+      "coordinate_source_id": "AISRC-0156",
+      "height_px": 348,
+      "latitude_wgs84": 31.9756476,
+      "longitude_wgs84": 118.5337487,
+      "marker_offsets_lon_lat": [
+        [
+          118.5337487,
+          31.9756476
+        ]
+      ],
+      "output_path": "figures/campus-locators/aifab-023-world-locator.png",
+      "sha256": "6ce315ccd7e9a24d6a1fb86b6b7db94202a3e85db06f4edbfacc751ee9082438",
+      "width_px": 768
+    },
+    {
+      "campus_id": "AIFAB-024",
+      "campus_name": "ESMC Dresden campus",
+      "coordinate_precision": "osm_construction_geometry_representative_point",
+      "coordinate_source_id": "AISRC-0094",
+      "height_px": 348,
+      "latitude_wgs84": 51.1299386,
+      "longitude_wgs84": 13.7461526,
+      "marker_offsets_lon_lat": [
+        [
+          13.7461526,
+          51.1299386
+        ]
+      ],
+      "output_path": "figures/campus-locators/aifab-024-world-locator.png",
+      "sha256": "72f2e1b7ad02674a3966d8c9dab2e130967ac83b89328a1313969cee254a977f",
+      "width_px": 768
+    },
+    {
+      "campus_id": "AIFAB-025",
+      "campus_name": "Fab 12B",
+      "coordinate_precision": "named_industrial_area_representative_point",
+      "coordinate_source_id": "AISRC-0095",
+      "height_px": 348,
+      "latitude_wgs84": 24.7695434,
+      "longitude_wgs84": 121.0125368,
+      "marker_offsets_lon_lat": [
+        [
+          121.0125368,
+          24.7695434
+        ]
+      ],
+      "output_path": "figures/campus-locators/aifab-025-world-locator.png",
+      "sha256": "1cfc7d49ee508d0285f8be0975be944670221a8b1f62d8ed4fbf31319574ac79",
+      "width_px": 768
+    },
+    {
+      "campus_id": "AIFAB-026",
+      "campus_name": "Dresden Fab 1 campus",
+      "coordinate_precision": "named_industrial_area_representative_point",
+      "coordinate_source_id": "AISRC-0092",
+      "height_px": 348,
+      "latitude_wgs84": 51.125797,
+      "longitude_wgs84": 13.717192,
+      "marker_offsets_lon_lat": [
+        [
+          13.717192,
+          51.125797
+        ]
+      ],
+      "output_path": "figures/campus-locators/aifab-026-world-locator.png",
+      "sha256": "72f2e1b7ad02674a3966d8c9dab2e130967ac83b89328a1313969cee254a977f",
+      "width_px": 768
+    },
+    {
+      "campus_id": "AIFAB-027",
+      "campus_name": "Ohio One campus",
+      "coordinate_precision": "named_campus_construction_area_representative_point",
+      "coordinate_source_id": "AISRC-0149",
+      "height_px": 348,
+      "latitude_wgs84": 40.1169246,
+      "longitude_wgs84": -82.7113472,
+      "marker_offsets_lon_lat": [
+        [
+          -82.7113472,
+          40.1169246
+        ]
+      ],
+      "output_path": "figures/campus-locators/aifab-027-world-locator.png",
+      "sha256": "df073f13b9caf43bbc3610ff96ada53c506b90941c451b3e542bdd7b43124723",
+      "width_px": 768
+    },
+    {
+      "campus_id": "AIFAB-028",
+      "campus_name": "Beijing Jingcheng campus",
+      "coordinate_precision": "analyst_estimated_four_road_parcel_center",
+      "coordinate_source_id": "AISRC-0188",
+      "height_px": 348,
+      "latitude_wgs84": 39.726638,
+      "longitude_wgs84": 116.572008,
+      "marker_offsets_lon_lat": [
+        [
+          116.572008,
+          39.726638
+        ]
+      ],
+      "output_path": "figures/campus-locators/aifab-028-world-locator.png",
+      "sha256": "3a012b56d5f37977c7387ac1cb1f0c222c8024c1df4abf9c78c58b33955319a9",
+      "width_px": 768
+    },
+    {
+      "campus_id": "AIFAB-029",
+      "campus_name": "Shenzhen Pingshan campus",
+      "coordinate_precision": "named_operator_campus_area_representative_point",
+      "coordinate_source_id": "AISRC-0155",
+      "height_px": 348,
+      "latitude_wgs84": 22.7159901,
+      "longitude_wgs84": 114.3537343,
+      "marker_offsets_lon_lat": [
+        [
+          114.3537343,
+          22.7159901
+        ]
+      ],
+      "output_path": "figures/campus-locators/aifab-029-world-locator.png",
+      "sha256": "cca8ab039aa55ba3444f36b0acde33378adefcde941bbc1b12cff0ab3bf6886b",
+      "width_px": 768
+    },
+    {
+      "campus_id": "AIFAB-030",
+      "campus_name": "Shanghai Lingang campus",
+      "coordinate_precision": "eia_project_center_converted_campus_link_unverified",
+      "coordinate_source_id": "AICOORD-20260823-001",
+      "height_px": 348,
+      "latitude_wgs84": 30.9871014,
+      "longitude_wgs84": 121.8370378,
+      "marker_offsets_lon_lat": [
+        [
+          121.8370378,
+          30.9871014
+        ]
+      ],
+      "output_path": "figures/campus-locators/aifab-030-world-locator.png",
+      "sha256": "8541bb9779560e065a371feb00a114b6b8cd9ad9ea643b61e8938c7bdaaa0d2c",
+      "width_px": 768
+    },
+    {
+      "campus_id": "AIFAB-031",
+      "campus_name": "Tianjin Xiqing campus",
+      "coordinate_precision": "analyst_estimated_four_road_parcel_center",
+      "coordinate_source_id": "AICOORD-20260823-002",
+      "height_px": 348,
+      "latitude_wgs84": 38.9786,
+      "longitude_wgs84": 117.1966,
+      "marker_offsets_lon_lat": [
+        [
+          117.1966,
+          38.9786
+        ]
+      ],
+      "output_path": "figures/campus-locators/aifab-031-world-locator.png",
+      "sha256": "614d1aec7014d57e72c0b5a7d699489f5cd0e7c105ed5654c91c6cce60af942e",
+      "width_px": 768
+    },
+    {
+      "campus_id": "AIFAB-032",
+      "campus_name": "Wuxi Fab 7/Fab 9 campus",
+      "coordinate_precision": "named_operator_campus_area_representative_point",
+      "coordinate_source_id": "AISRC-0157",
+      "height_px": 348,
+      "latitude_wgs84": 31.5243052,
+      "longitude_wgs84": 120.4052352,
+      "marker_offsets_lon_lat": [
+        [
+          120.4052352,
+          31.5243052
+        ]
+      ],
+      "output_path": "figures/campus-locators/aifab-032-world-locator.png",
+      "sha256": "ce8c29cac323f21150b6e431e17fb7736d532a249ae2f7d26b97314ce5509e90",
+      "width_px": 768
+    },
+    {
+      "campus_id": "AIFAB-033",
+      "campus_name": "Dholera semiconductor fab campus",
+      "coordinate_precision": "official_project_polygon_computed_centroid",
+      "coordinate_source_id": "AISRC-0169",
+      "height_px": 348,
+      "latitude_wgs84": 22.2262965,
+      "longitude_wgs84": 72.1941773,
+      "marker_offsets_lon_lat": [
+        [
+          72.1941773,
+          22.2262965
+        ]
+      ],
+      "output_path": "figures/campus-locators/aifab-033-world-locator.png",
+      "sha256": "bff3fcbf38e18f66449a8316039c8b1730c62385b57288a7698eacaa429be307",
+      "width_px": 768
+    }
+  ],
+  "overview_map": {
+    "east_asia_inset_bounds_lon_lat": [
+      95,
+      18,
+      145,
+      46
+    ],
+    "east_asia_inset_clusters": [
+      {
+        "count": 1,
+        "latitude": 24.2118688,
+        "longitude": 120.6086166,
+        "member_coordinates_lon_lat": [
+          [
+            120.6086166,
+            24.2118688
+          ]
+        ]
+      },
+      {
+        "count": 3,
+        "latitude": 22.9800257,
+        "longitude": 120.28050130000001,
+        "member_coordinates_lon_lat": [
+          [
+            120.264142,
+            23.116316
+          ],
+          [
+            120.30887,
+            22.71279
+          ],
+          [
+            120.2684919,
+            23.1109711
+          ]
+        ]
+      },
+      {
+        "count": 2,
+        "latitude": 24.7678272,
+        "longitude": 121.0071714,
+        "member_coordinates_lon_lat": [
+          [
+            121.001806,
+            24.766111
+          ],
+          [
+            121.0125368,
+            24.7695434
+          ]
+        ]
+      },
+      {
+        "count": 3,
+        "latitude": 37.160968499999996,
+        "longitude": 127.07011736666668,
+        "member_coordinates_lon_lat": [
+          [
+            127.0601548,
+            37.0355596
+          ],
+          [
+            127.0659624,
+            37.2185308
+          ],
+          [
+            127.0842349,
+            37.2288151
+          ]
+        ]
+      },
+      {
+        "count": 3,
+        "latitude": 31.093687533333334,
+        "longitude": 121.6843334,
+        "member_coordinates_lon_lat": [
+          [
+            121.6024705,
+            31.217262
+          ],
+          [
+            121.6134919,
+            31.0766992
+          ],
+          [
+            121.8370378,
+            30.9871014
+          ]
+        ]
+      },
+      {
+        "count": 1,
+        "latitude": 32.8865203,
+        "longitude": 130.843263,
+        "member_coordinates_lon_lat": [
+          [
+            130.843263,
+            32.8865203
+          ]
+        ]
+      },
+      {
+        "count": 1,
+        "latitude": 42.7866449,
+        "longitude": 141.7069727,
+        "member_coordinates_lon_lat": [
+          [
+            141.7069727,
+            42.7866449
+          ]
+        ]
+      },
+      {
+        "count": 1,
+        "latitude": 31.9756476,
+        "longitude": 118.5337487,
+        "member_coordinates_lon_lat": [
+          [
+            118.5337487,
+            31.9756476
+          ]
+        ]
+      },
+      {
+        "count": 1,
+        "latitude": 39.726638,
+        "longitude": 116.572008,
+        "member_coordinates_lon_lat": [
+          [
+            116.572008,
+            39.726638
+          ]
+        ]
+      },
+      {
+        "count": 1,
+        "latitude": 22.7159901,
+        "longitude": 114.3537343,
+        "member_coordinates_lon_lat": [
+          [
+            114.3537343,
+            22.7159901
+          ]
+        ]
+      },
+      {
+        "count": 1,
+        "latitude": 38.9786,
+        "longitude": 117.1966,
+        "member_coordinates_lon_lat": [
+          [
+            117.1966,
+            38.9786
+          ]
+        ]
+      },
+      {
+        "count": 1,
+        "latitude": 31.5243052,
+        "longitude": 120.4052352,
+        "member_coordinates_lon_lat": [
+          [
+            120.4052352,
+            31.5243052
+          ]
+        ]
+      }
+    ],
+    "height_px": 1140,
+    "main_map_clusters": [
+      {
+        "count": 6,
+        "latitude": 23.781266716666664,
+        "longitude": 120.57741055000001,
+        "member_coordinates_lon_lat": [
+          [
+            120.6086166,
+            24.2118688
+          ],
+          [
+            120.264142,
+            23.116316
+          ],
+          [
+            121.001806,
+            24.766111
+          ],
+          [
+            120.30887,
+            22.71279
+          ],
+          [
+            120.2684919,
+            23.1109711
+          ],
+          [
+            121.0125368,
+            24.7695434
+          ]
+        ]
+      },
+      {
+        "count": 2,
+        "latitude": 33.510411000000005,
+        "longitude": -112.0210075,
+        "member_coordinates_lon_lat": [
+          [
+            -112.160555,
+            33.774912
+          ],
+          [
+            -111.88146,
+            33.24591
+          ]
+        ]
+      },
+      {
+        "count": 1,
+        "latitude": 42.970089,
+        "longitude": -73.75437,
+        "member_coordinates_lon_lat": [
+          [
+            -73.75437,
+            42.970089
+          ]
+        ]
+      },
+      {
+        "count": 3,
+        "latitude": 37.160968499999996,
+        "longitude": 127.07011736666668,
+        "member_coordinates_lon_lat": [
+          [
+            127.0601548,
+            37.0355596
+          ],
+          [
+            127.0659624,
+            37.2185308
+          ],
+          [
+            127.0842349,
+            37.2288151
+          ]
+        ]
+      },
+      {
+        "count": 2,
+        "latitude": 30.456198049999998,
+        "longitude": -97.54198410000001,
+        "member_coordinates_lon_lat": [
+          [
+            -97.631386,
+            30.375
+          ],
+          [
+            -97.4525822,
+            30.5373961
+          ]
+        ]
+      },
+      {
+        "count": 1,
+        "latitude": 45.543333,
+        "longitude": -122.917222,
+        "member_coordinates_lon_lat": [
+          [
+            -122.917222,
+            45.543333
+          ]
+        ]
+      },
+      {
+        "count": 1,
+        "latitude": 53.3749,
+        "longitude": -6.51258,
+        "member_coordinates_lon_lat": [
+          [
+            -6.51258,
+            53.3749
+          ]
+        ]
+      },
+      {
+        "count": 1,
+        "latitude": 31.594133,
+        "longitude": 34.788711,
+        "member_coordinates_lon_lat": [
+          [
+            34.788711,
+            31.594133
+          ]
+        ]
+      },
+      {
+        "count": 1,
+        "latitude": 32.8865203,
+        "longitude": 130.843263,
+        "member_coordinates_lon_lat": [
+          [
+            130.843263,
+            32.8865203
+          ]
+        ]
+      },
+      {
+        "count": 1,
+        "latitude": 42.7866449,
+        "longitude": 141.7069727,
+        "member_coordinates_lon_lat": [
+          [
+            141.7069727,
+            42.7866449
+          ]
+        ]
+      },
+      {
+        "count": 5,
+        "latitude": 31.35620308,
+        "longitude": 120.79839682000002,
+        "member_coordinates_lon_lat": [
+          [
+            121.6024705,
+            31.217262
+          ],
+          [
+            121.6134919,
+            31.0766992
+          ],
+          [
+            118.5337487,
+            31.9756476
+          ],
+          [
+            121.8370378,
+            30.9871014
+          ],
+          [
+            120.4052352,
+            31.5243052
+          ]
+        ]
+      },
+      {
+        "count": 2,
+        "latitude": 51.127867800000004,
+        "longitude": 13.7316723,
+        "member_coordinates_lon_lat": [
+          [
+            13.7461526,
+            51.1299386
+          ],
+          [
+            13.717192,
+            51.125797
+          ]
+        ]
+      },
+      {
+        "count": 1,
+        "latitude": 40.1169246,
+        "longitude": -82.7113472,
+        "member_coordinates_lon_lat": [
+          [
+            -82.7113472,
+            40.1169246
+          ]
+        ]
+      },
+      {
+        "count": 2,
+        "latitude": 39.352619000000004,
+        "longitude": 116.884304,
+        "member_coordinates_lon_lat": [
+          [
+            116.572008,
+            39.726638
+          ],
+          [
+            117.1966,
+            38.9786
+          ]
+        ]
+      },
+      {
+        "count": 1,
+        "latitude": 22.7159901,
+        "longitude": 114.3537343,
+        "member_coordinates_lon_lat": [
+          [
+            114.3537343,
+            22.7159901
+          ]
+        ]
+      },
+      {
+        "count": 1,
+        "latitude": 22.2262965,
+        "longitude": 72.1941773,
+        "member_coordinates_lon_lat": [
+          [
+            72.1941773,
+            22.2262965
+          ]
+        ]
+      }
+    ],
+    "mapped_physical_campus_count": 31,
+    "marker_offsets_lon_lat": [
+      [
+        120.6086166,
+        24.2118688
+      ],
+      [
+        120.264142,
+        23.116316
+      ],
+      [
+        -112.160555,
+        33.774912
+      ],
+      [
+        121.001806,
+        24.766111
+      ],
+      [
+        120.30887,
+        22.71279
+      ],
+      [
+        -73.75437,
+        42.970089
+      ],
+      [
+        127.0601548,
+        37.0355596
+      ],
+      [
+        127.0659624,
+        37.2185308
+      ],
+      [
+        121.6024705,
+        31.217262
+      ],
+      [
+        120.2684919,
+        23.1109711
+      ],
+      [
+        -97.631386,
+        30.375
+      ],
+      [
+        127.0842349,
+        37.2288151
+      ],
+      [
+        -111.88146,
+        33.24591
+      ],
+      [
+        -122.917222,
+        45.543333
+      ],
+      [
+        -6.51258,
+        53.3749
+      ],
+      [
+        34.788711,
+        31.594133
+      ],
+      [
+        130.843263,
+        32.8865203
+      ],
+      [
+        -97.4525822,
+        30.5373961
+      ],
+      [
+        121.6134919,
+        31.0766992
+      ],
+      [
+        141.7069727,
+        42.7866449
+      ],
+      [
+        118.5337487,
+        31.9756476
+      ],
+      [
+        13.7461526,
+        51.1299386
+      ],
+      [
+        121.0125368,
+        24.7695434
+      ],
+      [
+        13.717192,
+        51.125797
+      ],
+      [
+        -82.7113472,
+        40.1169246
+      ],
+      [
+        116.572008,
+        39.726638
+      ],
+      [
+        114.3537343,
+        22.7159901
+      ],
+      [
+        121.8370378,
+        30.9871014
+      ],
+      [
+        117.1966,
+        38.9786
+      ],
+      [
+        120.4052352,
+        31.5243052
+      ],
+      [
+        72.1941773,
+        22.2262965
+      ]
+    ],
+    "output_path": "figures/campus-locators/all-located-fabs-world-map.png",
+    "sha256": "e55412b131dfed06c344025de4a42482fb733f76aefda55c4f92774ad23f424c",
+    "width_px": 2256
+  },
+  "schema": "chip-fab-atlas-world-locators",
+  "status": "PASS",
+  "unlocated_physical_campus_ids": []
+}

@@ -1,0 +1,6 @@
+# Hash-pinned data and figures must be stored byte-for-byte.
+data/** -text
+figures/** -text
+*.pdf binary
+*.png binary
+*.jpg binary

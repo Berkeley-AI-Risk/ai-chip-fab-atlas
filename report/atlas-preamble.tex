@@ -1,0 +1,296 @@
+% ============================================================================
+%  atlas-preamble.tex — standalone AI Chip Fab Atlas publication style
+%  Engine: pdfLaTeX. Compile from report/ with: latexmk -pdf atlas.tex
+% ============================================================================
+
+% ---------------------------------------------------------------- encoding --
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{csquotes}
+
+% ------------------------------------------------------------------- fonts --
+% XCharter (Bitstream Charter, extended): sturdy, economical, editorial.
+% `sups' gives true superior figures for footnote markers.
+\usepackage[scaled=1.04,sups]{XCharter}
+% Matching math. Drop `vvarbb' if you prefer the standard blackboard bold.
+\usepackage[charter,vvarbb,scaled=1.05]{newtxmath}
+\usepackage[semibold]{sourcesanspro}          % sans: headings, figures, tables
+\usepackage[scaled=0.94,varqu,varl]{inconsolata} % mono
+% Text-layer mappings for ligature glyphs. pdfTeX's standard table lacks the
+% underscore names Source Sans Pro uses (f_f, f_t, f_f_t), so without these
+% lines words like "Office" and "after" copy and search as "Oice" and "aer".
+\input{glyphtounicode}
+\pdfglyphtounicode{f_f}{0066 0066}
+\pdfglyphtounicode{f_i}{0066 0069}
+\pdfglyphtounicode{f_l}{0066 006C}
+\pdfglyphtounicode{f_f_i}{0066 0066 0069}
+\pdfglyphtounicode{f_f_l}{0066 0066 006C}
+\pdfglyphtounicode{f_t}{0066 0074}
+\pdfglyphtounicode{f_f_t}{0066 0066 0074}
+\pdfglyphtounicode{f_j}{0066 006A}
+\pdfglyphtounicode{f_b}{0066 0062}
+\pdfglyphtounicode{f_h}{0066 0068}
+\pdfglyphtounicode{f_k}{0066 006B}
+\pdfgentounicode=1
+
+\linespread{1.06}   % XCharter has a large x-height; it wants a little more air
+
+% ------------------------------------------------------------------ colours --
+\usepackage[dvipsnames,table]{xcolor}
+\definecolor{accent}{HTML}{33393F}   % graphite — headings, rules, links
+\definecolor{accentlt}{HTML}{5A6470}
+\definecolor{hairline}{HTML}{C9CBCE}
+\definecolor{softbg}{HTML}{F3F4F5}
+\definecolor{inktext}{HTML}{1A1A1A}  % not pure black; easier on the eye
+\color{inktext}
+
+% ---------------------------------------------------------------- geometry --
+% Symmetric text block. 5.90in at 12pt gives ~79 characters per line.
+% Widen further only if you also raise the point size, or the measure gets long.
+\KOMAoptions{fontsize=12pt}   % set here so the style is self-contained
+\usepackage[letterpaper]{geometry}
+\geometry{
+  textwidth  = 5.90in,
+  textheight = 8.60in,
+  centering,
+  headsep    = 0.26in,
+  footskip   = 0.55in,
+}
+
+% ------------------------------------------------------- microtypography ----
+\usepackage{microtype}
+\microtypesetup{protrusion=true,expansion=true,tracking=true,factor=1100}
+\SetTracking{encoding={*},shape=sc}{45}   % letterspace small caps
+
+% ------------------------------------------------------ page discipline -----
+\widowpenalty=10000
+\clubpenalty=10000
+\brokenpenalty=10000
+\raggedbottom                 % prefer short pages over stretched leading
+\setlength{\emergencystretch}{2em}
+\setlength{\parindent}{1.2em}
+
+% ------------------------------------------------------------- headings -----
+\setkomafont{disposition}{\normalcolor\sffamily}
+\setkomafont{section}{\sffamily\bfseries\large\color{accent}}
+\setkomafont{subsection}{\sffamily\bfseries\normalsize\color{accent}}
+\setkomafont{subsubsection}{\sffamily\itshape\normalsize\color{accent}}
+\setkomafont{paragraph}{\sffamily\bfseries\small}
+\setkomafont{descriptionlabel}{\sffamily\bfseries}
+
+\RedeclareSectionCommand[beforeskip=-3.2ex plus -1ex minus -.2ex,
+                         afterskip=1.4ex plus .2ex]{section}
+\RedeclareSectionCommand[beforeskip=-2.6ex plus -1ex minus -.2ex,
+                         afterskip=1.0ex plus .2ex]{subsection}
+
+% ------------------------------------------------------ heads and feet ------
+\usepackage{scrlayer-scrpage}
+\pagestyle{scrheadings}
+\clearpairofpagestyles
+\setkomafont{pagehead}{\sffamily\footnotesize\color{accent!75!black}}
+\setkomafont{pagefoot}{\sffamily\footnotesize\color{black!55}}
+\automark[section]{section}
+\ihead{\runningtitle}
+\ohead{\headmark}
+\ofoot*{\thepage}
+\setlength{\headheight}{14pt}
+\KOMAoption{headsepline}{0.4pt}
+\addtokomafont{headsepline}{\color{hairline}}
+
+% ------------------------------------------------------------- captions -----
+\usepackage[font=small,
+            labelfont={sf,bf,color=accent},
+            textfont={sf},
+            labelsep=period,
+            skip=7pt,
+            justification=raggedright,
+            singlelinecheck=false]{caption}
+
+% ------------------------------------------------------- lists and tables ---
+\usepackage{enumitem}
+\setlist{itemsep=0.25em, parsep=0pt, topsep=0.5em}
+\setlist[itemize,1]{label=\textcolor{accent}{\textbullet}}
+\setlist[enumerate,1]{label=\textcolor{accent}{\arabic*.}}
+
+\usepackage{booktabs, tabularx, multirow, siunitx}
+\renewcommand{\arraystretch}{1.18}
+\newcommand{\tablefont}{\sffamily\small}
+
+% -------------------------------------------------------------- figures -----
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.17}   % raise once everyone is on TeX Live 2023+
+\pgfplotsset{
+  policyplot/.style={
+    width=\linewidth, height=0.58\linewidth,
+    tick label style={font=\sffamily\footnotesize, color=black!60},
+    label style={font=\sffamily\small, color=black!75},
+    legend style={font=\sffamily\footnotesize, draw=none, fill=none,
+                  at={(0.02,0.98)}, anchor=north west},
+    title style={font=\sffamily\bfseries\small, color=accent},
+    axis line style={color=black!35},
+    grid=major, grid style={hairline, line width=0.3pt},
+    axis x line*=bottom, axis y line*=left,
+    tick align=outside, tick style={color=black!35},
+    every axis plot/.append style={line width=1.1pt},
+    cycle list={{accent},{Sepia},{accentlt},{OliveGreen},{black!55}},
+  }
+}
+
+% ------------------------------------------------------------ side notes ----
+% No wide margin any more, so \sidenote degrades to a footnote. This keeps any
+% existing \sidenote markup working. Delete if you'd rather it error loudly.
+\newcommand{\sidenote}[1]{\footnote{#1}}
+
+% --------------------------------------------------------- callout boxes ----
+\usepackage[most]{tcolorbox}
+
+% tcolorbox parks \footnote inside the box. Capture them instead and replay
+% them once the box has ended, so they land at the foot of the page.
+\makeatletter
+\newcommand{\tcb@fnstore}{}
+\AtBeginDocument{\global\let\tcb@stdfnmark\@makefnmark
+  \global\let\tcb@stdmpfn\@mpfn \global\let\tcb@stdthefn\thefootnote}
+\newcommand{\tcbfncollect}{%
+  % Reset globally: the store is filled via \g@addto@macro, and a local reset
+  % made here would be undone when the box's group ends, before the flush.
+  \gdef\tcb@fnstore{}%
+  % tcolorbox sets up a minipage-like footnote context, which suppresses
+  % XCharter's superior figures. Restore the outer context for the marker.
+  \let\@makefnmark\tcb@stdfnmark
+  \let\@mpfn\tcb@stdmpfn \let\thefootnote\tcb@stdthefn
+  \renewcommand{\footnote}[1]{%
+    \footnotemark
+    \begingroup
+      \edef\tcb@fnx{\noexpand\g@addto@macro\noexpand\tcb@fnstore{%
+        \noexpand\footnotetext[\the\value{footnote}]{\unexpanded{##1}}}}%
+    \expandafter\endgroup\tcb@fnx
+  }%
+}
+% Replay, then clear globally so a later box cannot re-emit these footnotes.
+% (\footnote needs no restore: the box-local redefinition dies with the box.)
+\newcommand{\tcbfnflush}{\tcb@fnstore\gdef\tcb@fnstore{}}
+\makeatother
+\newtcolorbox{keybox}[1][Key findings]{
+  enhanced, breakable,
+  colback=softbg, colframe=accent,
+  boxrule=0pt, leftrule=2.5pt,
+  arc=0pt, outer arc=0pt,
+  left=12pt, right=12pt, top=10pt, bottom=10pt,
+  fonttitle=\sffamily\bfseries\small\color{accent},
+  title={#1}, coltitle=accent,
+  attach boxed title to top left={yshift=-2pt},
+  boxed title style={empty},
+  before upper={\tcbfncollect}, after={\tcbfnflush},
+}
+
+% Untitled, same visual language. For a passage set apart without a label.
+\newtcolorbox{plainbox}{
+  enhanced, breakable,
+  colback=softbg, colframe=accent,
+  boxrule=0pt, leftrule=2.5pt,
+  arc=0pt, outer arc=0pt,
+  left=12pt, right=12pt, top=10pt, bottom=10pt,
+  before upper={\tcbfncollect}, after={\tcbfnflush},
+}
+
+% Quieter still: hairline rules above and below, no fill, no left bar.
+\newtcolorbox{quietbox}{
+  enhanced, breakable,
+  colback=white, boxrule=0pt, frame hidden,
+  arc=0pt, outer arc=0pt,
+  borderline north={0.6pt}{0pt}{hairline},
+  borderline south={0.6pt}{0pt}{hairline},
+  left=0pt, right=0pt, top=11pt, bottom=11pt,
+  before upper={\tcbfncollect}, after={\tcbfnflush},
+}
+
+% ------------------------------------------------- abstract / summary -------
+\newenvironment{execsummary}
+  {\begin{center}\begin{minipage}{0.92\linewidth}
+   \setlength{\parindent}{0pt}\small
+   {\sffamily\bfseries\color{accent}Executive summary}\par\medskip
+   \color{black!85}}
+  {\end{minipage}\end{center}\bigskip}
+
+% ------------------------------------------------------------ epigraphs -----
+\newcommand{\pullquote}[2]{%
+  \begin{center}\begin{minipage}{0.85\linewidth}
+  \color{accent}\itshape\large #1\par\medskip
+  \normalfont\sffamily\footnotesize\color{black!55}\raggedleft #2
+  \end{minipage}\end{center}\medskip}
+
+% ---------------------------------------------------------- footnote look ---
+\deffootnote{1.2em}{1.2em}{\textsuperscript{\thefootnotemark}\hspace{0.35em}}
+\setkomafont{footnote}{\small}
+
+% ------------------------------------------------------------- hyperref -----
+\usepackage[unicode]{hyperref}
+\hypersetup{
+  colorlinks = true,
+  linkcolor  = accent,
+  citecolor  = accent,
+  urlcolor   = accentlt,
+  filecolor  = accent,
+  breaklinks = true,
+  pdfborder  = {0 0 0},
+}
+\usepackage[nameinlink]{cleveref}
+
+% ---------------------------------------------------------- title matter ----
+\newcommand{\runningtitle}{}
+\newcommand{\papertitle}{}
+\newcommand{\papersubtitle}{}
+\newcommand{\paperdate}{\today}
+\newcommand{\paperorg}{}
+
+% Author block: each author carries their own affiliation, laid out as a grid
+% that wraps automatically. Use \addauthor{Name}{Affiliation} once per author,
+% in the preamble of main.tex. For a shared affiliation, just repeat the text —
+% or see the grouped alternative in the comments below.
+\newcommand{\authorcolwidth}{0.30\linewidth}
+\makeatletter
+\newcommand{\@authorlist}{}
+\newcommand{\addauthor}[2]{%
+  \g@addto@macro\@authorlist{%
+    \parbox[t]{\authorcolwidth}{\raggedright
+      \sffamily\small\bfseries\color{black!85}#1\par
+      \vspace{3pt}%
+      \normalfont\sffamily\footnotesize\color{black!52}#2\par}%
+    \hspace{0.035\linewidth}\allowbreak
+  }%
+}
+\newcommand{\printauthors}{%
+  \begingroup
+    \setlength{\lineskip}{16pt}%
+    \setlength{\parindent}{0pt}%
+    \raggedright\@authorlist\par
+  \endgroup}
+\makeatother
+
+\newcommand{\makecoverpage}{%
+  \thispagestyle{empty}
+  \begin{flushleft}
+    \sffamily
+    {\footnotesize\color{black!55}\lsstyle\MakeUppercase{\paperorg}\par}
+    \vspace{0.55in}
+    {\color{hairline}\rule{\linewidth}{2.5pt}\par}
+    \vspace{0.30in}
+    % For a serif display title instead, swap \sffamily -> \rmfamily here.
+    {\sffamily\bfseries\fontsize{26}{30}\selectfont\color{accent}\papertitle\par}
+    \ifx\papersubtitle\empty\else
+      \vspace{0.14in}
+      {\sffamily\fontsize{15}{19}\selectfont\color{black!62}\papersubtitle\par}
+    \fi
+    \vspace{0.30in}
+    {\color{hairline}\rule{\linewidth}{0.6pt}\par}
+    \vspace{0.24in}
+    \printauthors
+    \vspace{0.22in}
+    {\sffamily\footnotesize\color{black!55}\paperdate\par}
+  \end{flushleft}
+  \vfill
+  \newpage
+}

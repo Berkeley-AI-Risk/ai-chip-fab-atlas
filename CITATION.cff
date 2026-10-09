@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: >-
+  If you use the AI Chip Fab Atlas, please cite the version you used and its
+  evidence cutoff date. For statements about an individual campus, also cite
+  the underlying public sources recorded in the Atlas.
+type: dataset
+title: "AI Chip Fab Atlas: Public-Evidence Atlas of AI-Relevant Chip-Fabrication Campuses"
+version: 1.0.0
+date-released: 2026-09-27
+authors:
+  - name: Berkeley AI Risk
+    website: "https://ai-risk.berkeley.edu"
+license:
+  - CC-BY-4.0
+  - MIT
+repository-code: "https://github.com/Berkeley-AI-Risk/ai-chip-fab-atlas"
+url: "https://github.com/Berkeley-AI-Risk/ai-chip-fab-atlas"
+abstract: >-
+  A public-evidence inventory of 31 physical wafer-fabrication campuses that may
+  matter for advanced AI chips, with a cited coordinate, an attributed aerial or
+  satellite image, and claim-level evidence on each campus's identity,
+  lifecycle, fabrication capability, and publicly reported AI-chip products.
+  Evidence reviewed through August 25, 2026. The Atlas was compiled by AI agents
+  under human direction as an experiment in AI-assisted open-source
+  intelligence gathering and documentation.
+keywords:
+  - semiconductor fabrication
+  - AI chips
+  - AI governance
+  - open-source intelligence
+  - OSINT
+  - dataset

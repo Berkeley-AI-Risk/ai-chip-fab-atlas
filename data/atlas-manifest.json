@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "release_date": "2026-09-27",
+  "evidence_cutoff_date": "2026-08-25",
+  "atlas_path": "data/atlas.json",
+  "atlas_sha256": "e9c838233ab6572b9851acbd714eea8f3e15defa20e379871ab4f824ecedf19e",
+  "record_count": 32,
+  "physical_campus_count": 31,
+  "source_count": 270,
+  "artifacts": {
+    "atlas_pdf": {
+      "bytes": 14551663,
+      "distribution": "committed to the repository",
+      "page_count": 32,
+      "path": "ai-chip-fab-atlas.pdf",
+      "sha256": "745375d49d4d38e4f83a275890f600b5c6aedf9858cc1c0433cbe7a29086ba88",
+      "build": {
+        "script": "src/build_release_pdf.py",
+        "edition": "compact",
+        "plate_encoding": "JPEG quality 85, 4:2:0 chroma subsampling (Pillow 11.3.0)",
+        "plate_pixels": "long side resampled to at most 1084 px (Lanczos)",
+        "tex_engine": "pdfTeX via latexmk; SOURCE_DATE_EPOCH set from the release date"
+      }
+    },
+    "catalogue_concordance": {
+      "bytes": 24133,
+      "path": "data/catalogue-concordance.json",
+      "review_date": "2026-08-25",
+      "sha256": "b3991d75b87c0fab1eb0c7b0680912434b204e4e43e486d2538ea58d51f5b4c8"
+    },
+    "fab_data_center_comparison_pdf": {
+      "bytes": 194455,
+      "path": "figures/fab-data-center-comparison.pdf",
+      "sha256": "a848a88d618652ef24c9bef15ccb8496eb86333b4793b31efdc25c4f209b1959"
+    },
+    "atlas_pdf_full_resolution": {
+      "bytes": 100742861,
+      "distribution": "GitHub Release asset",
+      "page_count": 32,
+      "path": "output/ai-chip-fab-atlas-full-resolution.pdf",
+      "sha256": "500a0b30837add462f859cede0135ccbf9cde1c0a5350d07f52997c65c42af95",
+      "build": {
+        "script": "src/build_release_pdf.py",
+        "edition": "full",
+        "plate_encoding": "JPEG quality 75, 4:2:0 chroma subsampling (Pillow 11.3.0)",
+        "plate_pixels": "original pixel dimensions",
+        "tex_engine": "pdfTeX via latexmk; SOURCE_DATE_EPOCH set from the release date"
+      }
+    }
+  },
+  "fact_checks": [
+    {
+      "date": "2026-08-25",
+      "reviewer": "fresh-context AI audits (OpenAI Codex agents) during construction",
+      "scope": "record, source, citation, coordinate, imagery, lifecycle, relationship, count, and file/hash coherence",
+      "result": "problems found and corrected before the August 25, 2026 snapshot"
+    },
+    {
+      "date": "2026-09-27",
+      "reviewer": "AI fact-check with adversarial verification (Claude Code, Claude Opus 5.5)",
+      "scope": "every claim on the PDF's campus pages and in the product, component, unresolved-product, and review-decision records of the August 25, 2026 snapshot (91 products, 17 components, 50 unresolved products, 84 review decisions); overview completeness; the corrections were reviewed once more (see docs/FACT_CHECK.md)",
+      "claims_checked": 1485,
+      "result": "confirmed errors corrected in version 1.0.0; see CHANGELOG.md and docs/FACT_CHECK.md"
+    }
+  ]
+}

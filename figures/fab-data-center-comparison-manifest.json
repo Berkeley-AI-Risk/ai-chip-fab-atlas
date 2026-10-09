@@ -1,0 +1,138 @@
+{
+  "cohorts": {
+    "atlas_fabs": {
+      "figure_retrieval_date": "2026-08-25",
+      "lifecycle_display_group_counts": {
+        "commissioning_or_pilot": 1,
+        "operating": 25,
+        "status_uncertain": 1,
+        "under_construction": 4
+      },
+      "lifecycle_display_group_method": "Aggregation of each physical campus's Atlas lifecycle_status after the August 25, 2026 evidence review. Operating includes operating/ramp and operating-with-expansion records; commissioning and pilot remain separate. Any future indeterminate record maps to status_uncertain rather than being forced into operating or construction.",
+      "record_count": 31,
+      "rule": "record_unit_type equals physical_front_end_campus and a complete source-bound WGS84 coordinate pair is present",
+      "source_snapshot_date": "2026-08-25"
+    },
+    "epoch_ai_data_centers": {
+      "blank_address_count": 11,
+      "coordinate_input_mode": "derived_coordinate_csv",
+      "coordinate_method": "public-safe replay from the derived coordinate CSV produced by the strict official CSV/map exact-name join; no webpage snapshot is read at render time",
+      "country_counts": {
+        "Australia": 1,
+        "China": 3,
+        "Indonesia": 1,
+        "Malaysia": 1,
+        "Norway": 2,
+        "Portugal": 1,
+        "United Arab Emirates": 1,
+        "United Kingdom": 1,
+        "United States": 72
+      },
+      "data_url": "https://epoch.ai/data/ai-data-centers",
+      "download_url": "https://epoch.ai/data/data_centers/data_centers.csv",
+      "license": "Creative Commons Attribution 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "map_url": "https://epoch.ai/data/ai-data-centers/map",
+      "record_count": 83,
+      "status_counts_from_epoch_map": {
+        "operational": 67,
+        "under_construction": 16
+      },
+      "update_and_access_date": "2026-08-25"
+    }
+  },
+  "created_date": "2026-08-25",
+  "derived_tables": {
+    "atlas_fabs": {
+      "path": "data/fab-data-center-comparison/atlas-campuses.csv",
+      "sha256": "d0f7da9a62a2bb185ad296f8f8262cb919e562b9979aa0842284f503486a4747"
+    },
+    "epoch_ai_data_centers": {
+      "path": "data/fab-data-center-comparison/epoch-data-centers.csv",
+      "sha256": "fa19dd754782ffc43a9225af6e6abfebdaf1a8b147f018396e365d9da334281c"
+    }
+  },
+  "figure": {
+    "figure_inches": [
+      7.1,
+      2.82
+    ],
+    "font_fallback_used": false,
+    "font_family": "Source Sans Pro",
+    "outputs": {
+      "jpeg": {
+        "bytes": 398264,
+        "chroma_subsampling": "4:4:4",
+        "dimensions_px": [
+          2840,
+          1128
+        ],
+        "path": "figures/fab-data-center-comparison.jpg",
+        "quality": 95,
+        "sha256": "424e53cec98bf666b3704acb67f56f176ff1441fdacc9ebcdce3d4d1a94cf5cd"
+      },
+      "pdf": {
+        "bytes": 194455,
+        "path": "figures/fab-data-center-comparison.pdf",
+        "sha256": "a848a88d618652ef24c9bef15ccb8496eb86333b4793b31efdc25c4f209b1959"
+      },
+      "png": {
+        "bytes": 401837,
+        "path": "figures/fab-data-center-comparison.png",
+        "sha256": "076c4188ea80b0d1b001a971080ea3af4ad6150a294e60a515fdf363871a746f"
+      },
+      "svg": {
+        "bytes": 642183,
+        "path": "figures/fab-data-center-comparison.svg",
+        "sha256": "5e050545225bc145ebd7297a1e5c9e56bb28df76c769837c44a26f0a9c31be7a"
+      }
+    },
+    "png_dimensions_px": [
+      2840,
+      1128
+    ],
+    "projection": "Equal Earth (ESRI:54035)",
+    "registered_fonts": [
+      {
+        "bytes": 293200,
+        "filename": "SourceSansPro-Regular.otf",
+        "role": "regular",
+        "sha256": "7134d229b15cdd0827376d8a24f6f531f616eb1b3fecd16e1cf8a86d0bf6bc51"
+      },
+      {
+        "bytes": 295952,
+        "filename": "SourceSansPro-Semibold.otf",
+        "role": "semibold",
+        "sha256": "aa53ed4fc17334a0c2ee8412c1e4e728bfb732a96b119164f7354343dad8f2f2"
+      }
+    ]
+  },
+  "inputs": {
+    "atlas": {
+      "path": "data/atlas.json",
+      "sha256": "e9c838233ab6572b9851acbd714eea8f3e15defa20e379871ab4f824ecedf19e"
+    },
+    "base_geography": {
+      "path": "data/geography/countries.geojson",
+      "rights": "public domain",
+      "sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f",
+      "source": "Natural Earth 1:110m admin-0 countries",
+      "source_url": "https://www.naturalearthdata.com/"
+    },
+    "epoch_coordinate_csv": {
+      "derivation": "strict exact-name join of the official Epoch AI CSV to official interactive-map lngLat records",
+      "path": "data/fab-data-center-comparison/epoch-data-centers.csv",
+      "sha256": "fa19dd754782ffc43a9225af6e6abfebdaf1a8b147f018396e365d9da334281c",
+      "upstream_data_url": "https://epoch.ai/data/data_centers/data_centers.csv",
+      "upstream_map_url": "https://epoch.ai/data/ai-data-centers/map"
+    }
+  },
+  "interpretation_limits": [
+    "Each marker represents one database record, not a surveyed footprint.",
+    "Marker size does not encode fab output, campus area, data-center compute, power, or operating status.",
+    "Neither dataset is guaranteed to provide a complete global census.",
+    "Epoch AI states that its current coverage is predominantly United States-based and includes qualifying planned sites under construction."
+  ],
+  "schema": "fab-data-center-location-comparison",
+  "status": "PASS"
+}

@@ -1,0 +1,720 @@
+{
+  "campuses": [
+    {
+      "acquisition_datetime_utc": "",
+      "asset_path": "assets/campus-imagery/aifab-001.png",
+      "asset_sha256": "4de97ab1f06614f3ace93b950c0e1425d78646beac22fe7b68b1243404bfc600",
+      "attribution_and_notes": "Selected by the best-free imagery review. pass_campus_visible_local_acquisition_unknown Required credit: Source: Taiwan Ministry of the Interior, National Land Surveying and Mapping Center, PHOTO2 orthophoto service, accessed August 6, 2026; provider markings preserved. The yellow cross was regenerated locally from the retained clean image at the fact-checked cited point; the clean image remains separate.",
+      "campus_id": "AIFAB-001",
+      "campus_name": "Fab 15B",
+      "citation_sources": [
+        {
+          "access_date": "2026-08-06",
+          "publication_date": "",
+          "publisher": "Taiwan Ministry of the Interior, National Land Surveying and Mapping Center",
+          "source_id": "AIIMGSRC-NLSC-FAB15-20260806",
+          "title": "PHOTO2 general orthophoto service",
+          "url": "https://maps.nlsc.gov.tw/S09SOA/pro/Wms_ajax_list.jsp"
+        }
+      ],
+      "collection": "PHOTO2 general orthophoto service",
+      "imagery_id": "AIIMGSRC-NLSC-FAB15-20260806",
+      "license_or_terms_url": "https://maps.nlsc.gov.tw/pro/use_clause_en.jsp",
+      "sensor": "Aerial orthophoto",
+      "standalone_public_git_distribution": false
+    },
+    {
+      "acquisition_datetime_utc": "",
+      "asset_path": "assets/campus-imagery/aifab-002.png",
+      "asset_sha256": "6e53d93c41a4dd5ed438e5b016c0ed8775afdad806b288f1253e90d2050fed59",
+      "attribution_and_notes": "Selected by the best-free imagery review. pass_campus_visible_local_acquisition_unknown Required credit: Source: Taiwan Ministry of the Interior, National Land Surveying and Mapping Center, PHOTO2 orthophoto service, accessed August 6, 2026; provider markings preserved.",
+      "campus_id": "AIFAB-002",
+      "campus_name": "Fab 18A/B",
+      "citation_sources": [
+        {
+          "access_date": "2026-08-06",
+          "publication_date": "",
+          "publisher": "Taiwan Ministry of the Interior, National Land Surveying and Mapping Center",
+          "source_id": "AIIMGSRC-NLSC-FAB18-20260806",
+          "title": "PHOTO2 general orthophoto service",
+          "url": "https://maps.nlsc.gov.tw/S09SOA/pro/Wms_ajax_list.jsp"
+        }
+      ],
+      "collection": "PHOTO2 general orthophoto service",
+      "imagery_id": "AIIMGSRC-NLSC-FAB18-20260806",
+      "license_or_terms_url": "https://maps.nlsc.gov.tw/pro/use_clause_en.jsp",
+      "sensor": "Aerial orthophoto",
+      "standalone_public_git_distribution": false
+    },
+    {
+      "acquisition_datetime_utc": "2023-06-16T00:00:00Z",
+      "asset_path": "assets/campus-imagery/aifab-003.png",
+      "asset_sha256": "cf0db8a9ac61f7131aeb2b0ea3da7cd1772ed3f011ca43204b925742e4e410e4",
+      "attribution_and_notes": "Selected by the best-free imagery review. pass_relevant_campus_construction_visible Required credit: Image: U.S. Department of Agriculture, National Agriculture Imagery Program; photographed June 16, 2023; public domain.",
+      "campus_id": "AIFAB-003",
+      "campus_name": "Arizona campus / corporate Fab 21",
+      "citation_sources": [
+        {
+          "access_date": "2026-08-23",
+          "publication_date": "",
+          "publisher": "U.S. Department of Agriculture",
+          "source_id": "AIIMGSRC-NAIP-TSMCARIZONA-20230616",
+          "title": "National Agriculture Imagery Program",
+          "url": "https://planetarycomputer.microsoft.com/dataset/naip"
+        }
+      ],
+      "collection": "National Agriculture Imagery Program",
+      "imagery_id": "AIIMGSRC-NAIP-TSMCARIZONA-20230616",
+      "license_or_terms_url": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+      "sensor": "Aerial orthophoto",
+      "standalone_public_git_distribution": false
+    },
+    {
+      "acquisition_datetime_utc": "",
+      "asset_path": "assets/campus-imagery/aifab-004.png",
+      "asset_sha256": "947f312fe87b68967e08fadc172a4af314102a603d2ce9d0bf4be68e492beb57",
+      "attribution_and_notes": "Selected by the best-free imagery review. pass_relevant_construction_visible_local_acquisition_unknown Required credit: Source: Taiwan Ministry of the Interior, National Land Surveying and Mapping Center, PHOTO2 orthophoto service, accessed August 6, 2026; provider markings preserved.",
+      "campus_id": "AIFAB-004",
+      "campus_name": "Fab 20",
+      "citation_sources": [
+        {
+          "access_date": "2026-08-06",
+          "publication_date": "",
+          "publisher": "Taiwan Ministry of the Interior, National Land Surveying and Mapping Center",
+          "source_id": "AIIMGSRC-NLSC-FAB20-20260806",
+          "title": "PHOTO2 general orthophoto service",
+          "url": "https://maps.nlsc.gov.tw/S09SOA/pro/Wms_ajax_list.jsp"
+        }
+      ],
+      "collection": "PHOTO2 general orthophoto service",
+      "imagery_id": "AIIMGSRC-NLSC-FAB20-20260806",
+      "license_or_terms_url": "https://maps.nlsc.gov.tw/pro/use_clause_en.jsp",
+      "sensor": "Aerial orthophoto",
+      "standalone_public_git_distribution": false
+    },
+    {
+      "acquisition_datetime_utc": "",
+      "asset_path": "assets/campus-imagery/aifab-005.png",
+      "asset_sha256": "f2da8b47d04add414afba1e57102dc9267c3a5e17b9b031b109ae5d9309e83ad",
+      "attribution_and_notes": "Selected by the best-free imagery review. pass_relevant_construction_visible_local_acquisition_unknown Required credit: Source: Taiwan Ministry of the Interior, National Land Surveying and Mapping Center, PHOTO2 orthophoto service, accessed August 6, 2026; provider markings preserved. The yellow coordinate cross was locally regenerated on August 25, 2026 at the corrected official site/event point; the clean source image is retained separately.",
+      "campus_id": "AIFAB-005",
+      "campus_name": "Fab 22",
+      "citation_sources": [
+        {
+          "access_date": "2026-08-06",
+          "publication_date": "",
+          "publisher": "Taiwan Ministry of the Interior, National Land Surveying and Mapping Center",
+          "source_id": "AIIMGSRC-NLSC-FAB22-20260806",
+          "title": "PHOTO2 general orthophoto service",
+          "url": "https://maps.nlsc.gov.tw/S09SOA/pro/Wms_ajax_list.jsp"
+        }
+      ],
+      "collection": "PHOTO2 general orthophoto service",
+      "imagery_id": "AIIMGSRC-NLSC-FAB22-20260806",
+      "license_or_terms_url": "https://maps.nlsc.gov.tw/pro/use_clause_en.jsp",
+      "sensor": "Aerial orthophoto",
+      "standalone_public_git_distribution": false
+    },
+    {
+      "acquisition_datetime_utc": "",
+      "asset_path": "assets/campus-imagery/aifab-006.png",
+      "asset_sha256": "7b0398d446142eb65b5046d814b65ae057141985a0ac2e2d989ef039707367da",
+      "attribution_and_notes": "Selected by the best-free imagery review. pass_newer_stable_operating_campus Required credit: New York State Office of Information Technology Services, Geospatial Services, New York State Digital Orthoimagery Program, 2024 Saratoga County one-foot four-band orthoimagery; cropped and annotated by the authors. The yellow cross was regenerated locally from the retained clean image at the fact-checked cited point; the clean image remains separate.",
+      "campus_id": "AIFAB-006",
+      "campus_name": "Fab 8",
+      "citation_sources": [
+        {
+          "access_date": "2026-08-23",
+          "publication_date": "",
+          "publisher": "New York State Office of Information Technology Services, Geospatial Services",
+          "source_id": "AIIMGSRC-NYSDOP-MALTA-2024",
+          "title": "New York State Digital Orthoimagery Program: Saratoga County 2024",
+          "url": "https://data.ny.gov/Public-Safety/Statewide-Digital-Orthoimagery/amsv-rmfz"
+        }
+      ],
+      "collection": "New York State Digital Orthoimagery Program: Saratoga County 2024",
+      "imagery_id": "AIIMGSRC-NYSDOP-MALTA-2024",
+      "license_or_terms_url": "https://data.ny.gov/api/views/amsv-rmfz",
+      "sensor": "Aerial orthophoto",
+      "standalone_public_git_distribution": false
+    },
+    {
+      "acquisition_datetime_utc": "",
+      "asset_path": "assets/campus-imagery/aifab-007.png",
+      "asset_sha256": "7c86e307372afe1b885555ac9bb657cb159f08492f99184c7443dd4a5e870fd2",
+      "attribution_and_notes": "Selected by the best-free imagery review. Single deliberately initiated bounded Export Web Map print-task rendering; no exportTiles call or XYZ tile harvesting; noncommercial publication with adjacent attribution. Required credit: Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community. Local imagery: Vantor Vivid Advanced (WV02), source dated 2025-12-22, Raster Basemaps 2026.R04. Map image is the intellectual property of Esri and is used herein under license. Copyright © 2026 Esri and its licensors. All rights reserved. Cropped and annotated by the authors.",
+      "campus_id": "AIFAB-007",
+      "campus_name": "Pyeongtaek Campus",
+      "citation_sources": [
+        {
+          "access_date": "2026-08-23",
+          "publication_date": "",
+          "publisher": "Esri",
+          "source_id": "AIIMGSRC-ESRIWORLD-PYEONGTAEK-20251222",
+          "title": "World Imagery",
+          "url": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9"
+        }
+      ],
+      "collection": "World Imagery",
+      "imagery_id": "AIIMGSRC-ESRIWORLD-PYEONGTAEK-20251222",
+      "license_or_terms_url": "https://www.esri.com/content/dam/esrisites/en-us/media/legal/terms-and-conditions/website-terms.pdf",
+      "sensor": "Satellite or aerial basemap image",
+      "standalone_public_git_distribution": false
+    },
+    {
+      "acquisition_datetime_utc": "",
+      "asset_path": "assets/campus-imagery/aifab-008.png",
+      "asset_sha256": "24724fdbd7e7d36adcc33b7383d6f8df6aed15300be46415dba583cfbf95419a",
+      "attribution_and_notes": "Selected by the best-free imagery review. Single deliberately initiated bounded Export Web Map print-task rendering; no exportTiles call or XYZ tile harvesting; noncommercial publication with adjacent attribution. Required credit: Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community. Local imagery: Vantor Vivid Advanced (WV02), source dated 2025-12-22, Raster Basemaps 2026.R04. Map image is the intellectual property of Esri and is used herein under license. Copyright © 2026 Esri and its licensors. All rights reserved. Cropped and annotated by the authors.",
+      "campus_id": "AIFAB-008",
+      "campus_name": "Hwaseong Campus",
+      "citation_sources": [
+        {
+          "access_date": "2026-08-23",
+          "publication_date": "",
+          "publisher": "Esri",
+          "source_id": "AIIMGSRC-ESRIWORLD-HWASEONG-20251222",
+          "title": "World Imagery",
+          "url": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9"
+        }
+      ],
+      "collection": "World Imagery",
+      "imagery_id": "AIIMGSRC-ESRIWORLD-HWASEONG-20251222",
+      "license_or_terms_url": "https://www.esri.com/content/dam/esrisites/en-us/media/legal/terms-and-conditions/website-terms.pdf",
+      "sensor": "Satellite or aerial basemap image",
+      "standalone_public_git_distribution": false
+    },
+    {
+      "acquisition_datetime_utc": "",
+      "asset_path": "assets/campus-imagery/aifab-009.png",
+      "asset_sha256": "d5d90978e12f3bdc4404a7a7e2608c44e0bb10367bdde66d459857d590307634",
+      "attribution_and_notes": "Selected by the best-free imagery review. Single deliberately initiated bounded Export Web Map print-task rendering; no exportTiles call or XYZ tile harvesting; noncommercial publication with adjacent attribution. Required credit: Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community. Local imagery: Vantor Vivid Advanced (WV03), source dated 2025-04-18, Raster Basemaps 2025.R10. Map image is the intellectual property of Esri and is used herein under license. Copyright © 2026 Esri and its licensors. All rights reserved. Cropped and annotated by the authors. The yellow cross was regenerated locally from the retained clean image at the fact-checked cited point; the clean image remains separate.",
+      "campus_id": "AIFAB-009",
+      "campus_name": "SMIC Southern SN1/SN2 campus",
+      "citation_sources": [
+        {
+          "access_date": "2026-08-23",
+          "publication_date": "",
+          "publisher": "Esri",
+          "source_id": "AIIMGSRC-ESRIWORLD-SMICSN2-20250418",
+          "title": "World Imagery",
+          "url": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9"
+        }
+      ],
+      "collection": "World Imagery",
+      "imagery_id": "AIIMGSRC-ESRIWORLD-SMICSN2-20250418",
+      "license_or_terms_url": "https://www.esri.com/content/dam/esrisites/en-us/media/legal/terms-and-conditions/website-terms.pdf",
+      "sensor": "Satellite or aerial basemap image",
+      "standalone_public_git_distribution": false
+    },
+    {
+      "acquisition_datetime_utc": "",
+      "asset_path": "assets/campus-imagery/aifab-010.png",
+      "asset_sha256": "293e4cc9af68abd4df7cba472b75fc9c66f4aaeb07b76c22460cdbcad1af39c5",
+      "attribution_and_notes": "Selected by the best-free imagery review. pass_fab14a_fab14b_visible_local_acquisition_unknown Required credit: Source: Taiwan Ministry of the Interior, National Land Surveying and Mapping Center, PHOTO2 orthophoto service, accessed August 23, 2026; provider markings preserved.",
+      "campus_id": "AIFAB-010",
+      "campus_name": "Fab 14B",
+      "citation_sources": [
+        {
+          "access_date": "2026-08-23",
+          "publication_date": "",
+          "publisher": "Taiwan Ministry of the Interior, National Land Surveying and Mapping Center",
+          "source_id": "AIIMGSRC-NLSC-FAB14-20260823",
+          "title": "PHOTO2 general orthophoto service",
+          "url": "https://maps.nlsc.gov.tw/S09SOA/pro/Wms_ajax_list.jsp"
+        }
+      ],
+      "collection": "PHOTO2 general orthophoto service",
+      "imagery_id": "AIIMGSRC-NLSC-FAB14-20260823",
+      "license_or_terms_url": "https://maps.nlsc.gov.tw/pro/use_clause_en.jsp",
+      "sensor": "Aerial orthophoto",
+      "standalone_public_git_distribution": false
+    },
+    {
+      "acquisition_datetime_utc": "",
+      "asset_path": "assets/campus-imagery/aifab-011.png",
+      "asset_sha256": "78b5be7c1dea337386ad7969f6e3bb7755370c3f43ace1fac7bf0a117398d351",
+      "attribution_and_notes": "Selected by the best-free imagery review. The newest public and exportable CAPCOG orthoimagery found. The source tile at the profile point was acquired January 4, 2022; source filenames referenced by mosaic cells intersecting the four-kilometre crop are dated January 4 and January 22, 2022. The official TxGIO collection is CC0; the bounded XYZ rendering is served by OpenStreetMap US Imagery. Required credit: Capital Area Council of Governments, CAPCOG Imagery 2022; one-foot RGBIR orthoimagery acquired by Surdex in January 2022; distributed by the Texas Geographic Information Office under CC0 1.0; bounded tiles accessed through OpenStreetMap US Imagery. The yellow cross was regenerated locally from the retained clean image at the fact-checked cited point; the clean image remains separate.",
+      "campus_id": "AIFAB-011",
+      "campus_name": "Austin Campus",
+      "citation_sources": [
+        {
+          "access_date": "2026-08-23",
+          "publication_date": "",
+          "publisher": "Capital Area Council of Governments and Texas Geographic Information Office",
+          "source_id": "AIIMGSRC-TXGIO-CAPCOG-AUSTIN-20220104-22",
+          "title": "CAPCOG Imagery 2022",
+          "url": "https://api.tnris.org/api/v1/collections/a15f67db-9535-464e-9058-f447325b6251"
+        }
+      ],
+      "collection": "CAPCOG Imagery 2022",
+      "imagery_id": "AIIMGSRC-TXGIO-CAPCOG-AUSTIN-20220104-22",
+      "license_or_terms_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sensor": "Aerial orthophoto",
+      "standalone_public_git_distribution": false
+    },
+    {
+      "acquisition_datetime_utc": "",
+      "asset_path": "assets/campus-imagery/aifab-012.png",
+      "asset_sha256": "0d04717467cfeb791237d7d853b83bf263c8a2dfa1280c9ac70163b530c1cd0e",
+      "attribution_and_notes": "Selected by the best-free imagery review. Single deliberately initiated bounded Export Web Map print-task rendering; no exportTiles call or XYZ tile harvesting; noncommercial publication with adjacent attribution. Required credit: Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community. Local imagery: Vantor Vivid Advanced (WV02), source dated 2025-12-22, Raster Basemaps 2026.R04. Map image is the intellectual property of Esri and is used herein under license. Copyright © 2026 Esri and its licensors. All rights reserved. Cropped and annotated by the authors.",
+      "campus_id": "AIFAB-012",
+      "campus_name": "Giheung Campus",
+      "citation_sources": [
+        {
+          "access_date": "2026-08-23",
+          "publication_date": "",
+          "publisher": "Esri",
+          "source_id": "AIIMGSRC-ESRIWORLD-GIHEUNG-20251222",
+          "title": "World Imagery",
+          "url": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9"
+        }
+      ],
+      "collection": "World Imagery",
+      "imagery_id": "AIIMGSRC-ESRIWORLD-GIHEUNG-20251222",
+      "license_or_terms_url": "https://www.esri.com/content/dam/esrisites/en-us/media/legal/terms-and-conditions/website-terms.pdf",
+      "sensor": "Satellite or aerial basemap image",
+      "standalone_public_git_distribution": false
+    },
+    {
+      "acquisition_datetime_utc": "2023-09-15T00:00:00Z",
+      "asset_path": "assets/campus-imagery/aifab-013.png",
+      "asset_sha256": "0c6ac37246ff94178ba5cdf000b67b14ec6a302222c07e2587d4855ddbc0d456",
+      "attribution_and_notes": "Selected by the best-free imagery review. pass_stable_operating_campus Required credit: Image: U.S. Department of Agriculture, National Agriculture Imagery Program; photographed September 15, 2023; public domain. The yellow cross was regenerated locally from the retained clean image at the fact-checked cited point; the clean image remains separate.",
+      "campus_id": "AIFAB-013",
+      "campus_name": "Arizona / Ocotillo Campus",
+      "citation_sources": [
+        {
+          "access_date": "2026-08-23",
+          "publication_date": "",
+          "publisher": "U.S. Department of Agriculture",
+          "source_id": "AIIMGSRC-NAIP-OCOTILLO-20230915",
+          "title": "National Agriculture Imagery Program",
+          "url": "https://planetarycomputer.microsoft.com/dataset/naip"
+        }
+      ],
+      "collection": "National Agriculture Imagery Program",
+      "imagery_id": "AIIMGSRC-NAIP-OCOTILLO-20230915",
+      "license_or_terms_url": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-agriculture-imagery-program-naip",
+      "sensor": "Aerial orthophoto",
+      "standalone_public_git_distribution": false
+    },
+    {
+      "acquisition_datetime_utc": "",
+      "asset_path": "assets/campus-imagery/aifab-014.png",
+      "asset_sha256": "752c6bd40975f852c833b575b96e745d51958a368ad02345c378a52791627835",
+      "attribution_and_notes": "Selected by the best-free imagery review. pass_newer_stable_operating_campus Required credit: State of Oregon, Oregon Statewide Imagery Program (OSIP), 2024 statewide one-foot orthoimagery; acquired June-August 2024; acquisition and processing by Surdex, a Bowman company; cropped and annotated by the authors. The yellow cross was regenerated locally from the retained clean image at the fact-checked cited point; the clean image remains separate.",
+      "campus_id": "AIFAB-014",
+      "campus_name": "Oregon / Gordon Moore Park",
+      "citation_sources": [
+        {
+          "access_date": "2026-08-23",
+          "publication_date": "",
+          "publisher": "State of Oregon, Oregon Statewide Imagery Program (OSIP)",
+          "source_id": "AIIMGSRC-OSIP-GORDONMOORE-202406-08",
+          "title": "2024 Statewide One-Foot Orthoimagery",
+          "url": "https://imagery.oregonexplorer.info/arcgis/rest/services/OSIP_2024/OSIP_2024_WM/ImageServer"
+        }
+      ],
+      "collection": "2024 Statewide One-Foot Orthoimagery",
+      "imagery_id": "AIIMGSRC-OSIP-GORDONMOORE-202406-08",
+      "license_or_terms_url": "https://www.oregon.gov/eis/geo/Pages/faq.aspx",
+      "sensor": "Aerial orthophoto",
+      "standalone_public_git_distribution": false
+    },
+    {
+      "acquisition_datetime_utc": "",
+      "asset_path": "assets/campus-imagery/aifab-015.png",
+      "asset_sha256": "58e8203f6d13e8781741f108961ce733cfc230e8db5f8c04d1c440710f8fd9d3",
+      "attribution_and_notes": "Selected by the best-free imagery review. Single deliberately initiated bounded Export Web Map print-task rendering; no exportTiles call or XYZ tile harvesting; noncommercial publication with adjacent attribution. Required credit: Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community. Local imagery: Vantor Vivid Advanced (WV02), source dated 2023-09-04, Raster Basemaps 2025.R10. Map image is the intellectual property of Esri and is used herein under license. Copyright © 2026 Esri and its licensors. All rights reserved. Cropped and annotated by the authors.",
+      "campus_id": "AIFAB-015",
+      "campus_name": "Leixlip campus (Fab 24 / Fab 34)",
+      "citation_sources": [
+        {
+          "access_date": "2026-08-23",
+          "publication_date": "",
+          "publisher": "Esri",
+          "source_id": "AIIMGSRC-ESRIWORLD-LEIXLIP-20230904",
+          "title": "World Imagery",
+          "url": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9"
+        }
+      ],
+      "collection": "World Imagery",
+      "imagery_id": "AIIMGSRC-ESRIWORLD-LEIXLIP-20230904",
+      "license_or_terms_url": "https://www.esri.com/content/dam/esrisites/en-us/media/legal/terms-and-conditions/website-terms.pdf",
+      "sensor": "Satellite or aerial basemap image",
+      "standalone_public_git_distribution": false
+    },
+    {
+      "acquisition_datetime_utc": "",
+      "asset_path": "assets/campus-imagery/aifab-016.png",
+      "asset_sha256": "b4d0e6d00cc3374c3638e8f6da8661e6d8ca51128d4d9741ac96cfd81ed61fda",
+      "attribution_and_notes": "Selected by the best-free imagery review. Single deliberately initiated bounded Export Web Map print-task rendering; no exportTiles call or XYZ tile harvesting; noncommercial publication with adjacent attribution. Required credit: Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community. Local imagery: Vantor Vivid (LG02), source dated 2024-11-07, Raster Basemaps 2026.R01; Vantor Vivid (LG01), source dated 2024-12-24, Raster Basemaps 2026.R01. Map image is the intellectual property of Esri and is used herein under license. Copyright © 2026 Esri and its licensors. All rights reserved. Cropped and annotated by the authors.",
+      "campus_id": "AIFAB-016",
+      "campus_name": "Kiryat Gat campus / Fab 28",
+      "citation_sources": [
+        {
+          "access_date": "2026-08-23",
+          "publication_date": "",
+          "publisher": "Esri",
+          "source_id": "AIIMGSRC-ESRIWORLD-INTELFAB28-20241224",
+          "title": "World Imagery",
+          "url": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9"
+        }
+      ],
+      "collection": "World Imagery",
+      "imagery_id": "AIIMGSRC-ESRIWORLD-INTELFAB28-20241224",
+      "license_or_terms_url": "https://www.esri.com/content/dam/esrisites/en-us/media/legal/terms-and-conditions/website-terms.pdf",
+      "sensor": "Satellite or aerial basemap image",
+      "standalone_public_git_distribution": false
+    },
+    {
+      "acquisition_datetime_utc": "2026-08-03T00:00:00Z",
+      "asset_path": "assets/campus-imagery/aifab-018.png",
+      "asset_sha256": "29e07d04eab997c3d7ced5a3bcaf2714636ed8238902641d63f52b8a57dc0b6e",
+      "attribution_and_notes": "Selected by the best-free imagery review. A dated official orthophoto photographed after the first JASM fab entered production; preferred over Sentinel-2 for the campus. The 2.4-kilometre crop center is shifted approximately 0.45 km south of the public campus anchor so the full operating and expanding campus fits below the special-flight footprint's northern edge. Remaining peripheral gaps are filled from GSI's seamless aerial mosaic and explicitly counted in the provenance. Required credit: Created by editing GSI Tiles, ‘2026 Kumamoto-1 Orthophoto, August 3 Flight,’ Geospatial Information Authority of Japan; photographed August 3, 2026.",
+      "campus_id": "AIFAB-018",
+      "campus_name": "JASM Kumamoto campus",
+      "citation_sources": [
+        {
+          "access_date": "2026-08-23",
+          "publication_date": "",
+          "publisher": "Geospatial Information Authority of Japan",
+          "source_id": "AIIMGSRC-GSI-JASM-20260803",
+          "title": "2026 Kumamoto-1 orthophoto, August 3 flight",
+          "url": "https://maps.gsi.go.jp/development/ichiran.html"
+        }
+      ],
+      "collection": "2026 Kumamoto-1 orthophoto, August 3 flight",
+      "imagery_id": "AIIMGSRC-GSI-JASM-20260803",
+      "license_or_terms_url": "https://www.gsi.go.jp/ENGLISH/page_e30286.html",
+      "sensor": "Aerial orthophoto",
+      "standalone_public_git_distribution": false
+    },
+    {
+      "acquisition_datetime_utc": "",
+      "asset_path": "assets/campus-imagery/aifab-019.png",
+      "asset_sha256": "b57290adc5c0676d776c9fd54f5dfa55b02efca63a84d3b6f382386acf5cf052",
+      "attribution_and_notes": "Selected by the best-free imagery review. Single deliberately initiated bounded Export Web Map print-task rendering; no exportTiles call or XYZ tile harvesting; noncommercial publication with adjacent attribution. Required credit: Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community. Local imagery: Williamson County TX Williamson County2025 (Williamson County Orthos), source dated 2025-10-15, Raster Basemaps 2026.R03. Map image is the intellectual property of Esri and is used herein under license. Copyright © 2026 Esri and its licensors. All rights reserved. Cropped and annotated by the authors.",
+      "campus_id": "AIFAB-019",
+      "campus_name": "Taylor Campus",
+      "citation_sources": [
+        {
+          "access_date": "2026-08-23",
+          "publication_date": "",
+          "publisher": "Esri",
+          "source_id": "AIIMGSRC-ESRIWORLD-TAYLOR-20251015",
+          "title": "World Imagery",
+          "url": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9"
+        }
+      ],
+      "collection": "World Imagery",
+      "imagery_id": "AIIMGSRC-ESRIWORLD-TAYLOR-20251015",
+      "license_or_terms_url": "https://www.esri.com/content/dam/esrisites/en-us/media/legal/terms-and-conditions/website-terms.pdf",
+      "sensor": "Satellite or aerial basemap image",
+      "standalone_public_git_distribution": false
+    },
+    {
+      "acquisition_datetime_utc": "",
+      "asset_path": "assets/campus-imagery/aifab-021.png",
+      "asset_sha256": "e0bf3976873e0a400309105862e6e5a01042f73f2fa47b15688bd16b2ef473c9",
+      "attribution_and_notes": "Selected by the best-free imagery review. Single deliberately initiated bounded Export Web Map print-task rendering; no exportTiles call or XYZ tile harvesting; noncommercial publication with adjacent attribution. Required credit: Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community. Local imagery: Vantor Vivid Advanced (LG03), source dated 2025-04-07, Raster Basemaps 2025.R10; Vantor Vivid Advanced (LG03), source dated 2025-04-09, Raster Basemaps 2025.R10. Map image is the intellectual property of Esri and is used herein under license. Copyright © 2026 Esri and its licensors. All rights reserved. Cropped and annotated by the authors.",
+      "campus_id": "AIFAB-021",
+      "campus_name": "Huali Fab 6",
+      "citation_sources": [
+        {
+          "access_date": "2026-08-23",
+          "publication_date": "",
+          "publisher": "Esri",
+          "source_id": "AIIMGSRC-ESRIWORLD-HUALIFAB6-20250407",
+          "title": "World Imagery",
+          "url": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9"
+        }
+      ],
+      "collection": "World Imagery",
+      "imagery_id": "AIIMGSRC-ESRIWORLD-HUALIFAB6-20250407",
+      "license_or_terms_url": "https://www.esri.com/content/dam/esrisites/en-us/media/legal/terms-and-conditions/website-terms.pdf",
+      "sensor": "Satellite or aerial basemap image",
+      "standalone_public_git_distribution": false
+    },
+    {
+      "acquisition_datetime_utc": "",
+      "asset_path": "assets/campus-imagery/aifab-022.png",
+      "asset_sha256": "601b9d8d1e1ca4813ae351d345ac23207faf0302e93f80e370d845ae602f2222",
+      "attribution_and_notes": "Selected by the best-free imagery review. Single deliberately initiated bounded Export Web Map print-task rendering; no exportTiles call or XYZ tile harvesting; noncommercial publication with adjacent attribution. Required credit: Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community. Local imagery: Vantor Vivid Advanced (GE01), source dated 2024-04-15, Maps 2024.R08. Map image is the intellectual property of Esri and is used herein under license. Copyright © 2026 Esri and its licensors. All rights reserved. Cropped and annotated by the authors.",
+      "campus_id": "AIFAB-022",
+      "campus_name": "IIM-1",
+      "citation_sources": [
+        {
+          "access_date": "2026-08-23",
+          "publication_date": "",
+          "publisher": "Esri",
+          "source_id": "AIIMGSRC-ESRIWORLD-RAPIDUSIIM1-20240415",
+          "title": "World Imagery",
+          "url": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9"
+        }
+      ],
+      "collection": "World Imagery",
+      "imagery_id": "AIIMGSRC-ESRIWORLD-RAPIDUSIIM1-20240415",
+      "license_or_terms_url": "https://www.esri.com/content/dam/esrisites/en-us/media/legal/terms-and-conditions/website-terms.pdf",
+      "sensor": "Satellite or aerial basemap image",
+      "standalone_public_git_distribution": false
+    },
+    {
+      "acquisition_datetime_utc": "",
+      "asset_path": "assets/campus-imagery/aifab-023.png",
+      "asset_sha256": "c2d604e2a4d71d984e9dcddbec1aa54d63be35058e12388a4ed8234beb5b5981",
+      "attribution_and_notes": "Selected by the best-free imagery review. Single deliberately initiated bounded Export Web Map print-task rendering; no exportTiles call or XYZ tile harvesting; noncommercial publication with adjacent attribution. Required credit: Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community. Local imagery: Vantor Vivid Advanced (WV02), source dated 2024-01-01, Maps 2024.R13. Map image is the intellectual property of Esri and is used herein under license. Copyright © 2026 Esri and its licensors. All rights reserved. Cropped and annotated by the authors.",
+      "campus_id": "AIFAB-023",
+      "campus_name": "Fab 16",
+      "citation_sources": [
+        {
+          "access_date": "2026-08-23",
+          "publication_date": "",
+          "publisher": "Esri",
+          "source_id": "AIIMGSRC-ESRIWORLD-TSMCFAB16-20240101",
+          "title": "World Imagery",
+          "url": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9"
+        }
+      ],
+      "collection": "World Imagery",
+      "imagery_id": "AIIMGSRC-ESRIWORLD-TSMCFAB16-20240101",
+      "license_or_terms_url": "https://www.esri.com/content/dam/esrisites/en-us/media/legal/terms-and-conditions/website-terms.pdf",
+      "sensor": "Satellite or aerial basemap image",
+      "standalone_public_git_distribution": false
+    },
+    {
+      "acquisition_datetime_utc": "",
+      "asset_path": "assets/campus-imagery/aifab-024.png",
+      "asset_sha256": "bf7279b4a40c05216e6c06476de8ba9eee6004ab176158b97ead4200b61775e7",
+      "attribution_and_notes": "Selected by the best-free imagery review. pass_2026_primary_with_2024_edge_nodata_fill Required credit: Datenquellen: Landeshauptstadt Dresden, dl-de/by-2-0, opendata.dresden.de, Orthophotos 2025/2026, March 13, 2026 where available; exact-white city-layer no-data edge areas filled with GeoSN SN DOP 020 RGB, dl-de/by-2-0, photographed March 19 and April 7, 2024; cropped, composited, and annotated by the authors.",
+      "campus_id": "AIFAB-024",
+      "campus_name": "ESMC Dresden campus",
+      "citation_sources": [
+        {
+          "access_date": "2026-08-23",
+          "publication_date": "",
+          "publisher": "Landeshauptstadt Dresden (primary); Landesamt für Geobasisinformation Sachsen / GeoSN (edge fill)",
+          "source_id": "AIIMGSRC-DRESDEN-GEOSN-ESMC-20260313-20240407",
+          "title": "Dresden Orthophotos 2025/2026 primary with GeoSN SN DOP 020 RGB no-data edge fill",
+          "url": "https://stadtplan.dresden.de/public/ogcsl.ashx?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0&PKGID=4"
+        }
+      ],
+      "collection": "Dresden Orthophotos 2025/2026 primary with GeoSN SN DOP 020 RGB no-data edge fill",
+      "imagery_id": "AIIMGSRC-DRESDEN-GEOSN-ESMC-20260313-20240407",
+      "license_or_terms_url": "https://opendata.dresden.de/informationsportal/nutzungsbedingungen_de.html",
+      "sensor": "Aerial orthophoto",
+      "standalone_public_git_distribution": false
+    },
+    {
+      "acquisition_datetime_utc": "",
+      "asset_path": "assets/campus-imagery/aifab-025.png",
+      "asset_sha256": "315762758ad90e83c7f7de04dcbbb07a8574c355aa227e6c7723883fdcdbb91d",
+      "attribution_and_notes": "Selected by the best-free imagery review. pass_campus_visible_local_acquisition_unknown Required credit: Source: Taiwan Ministry of the Interior, National Land Surveying and Mapping Center, PHOTO2 orthophoto service, accessed August 6, 2026; provider markings preserved. The yellow cross was regenerated locally from the retained clean image at the fact-checked cited point; the clean image remains separate.",
+      "campus_id": "AIFAB-025",
+      "campus_name": "Fab 12B",
+      "citation_sources": [
+        {
+          "access_date": "2026-08-06",
+          "publication_date": "",
+          "publisher": "Taiwan Ministry of the Interior, National Land Surveying and Mapping Center",
+          "source_id": "AIIMGSRC-NLSC-FAB12-20260806",
+          "title": "PHOTO2 general orthophoto service",
+          "url": "https://maps.nlsc.gov.tw/S09SOA/pro/Wms_ajax_list.jsp"
+        }
+      ],
+      "collection": "PHOTO2 general orthophoto service",
+      "imagery_id": "AIIMGSRC-NLSC-FAB12-20260806",
+      "license_or_terms_url": "https://maps.nlsc.gov.tw/pro/use_clause_en.jsp",
+      "sensor": "Aerial orthophoto",
+      "standalone_public_git_distribution": false
+    },
+    {
+      "acquisition_datetime_utc": "",
+      "asset_path": "assets/campus-imagery/aifab-026.png",
+      "asset_sha256": "4b60d122a68504f778b045427cc3c67e4007fc7ebbc0ab8b9c77c315e5a9291e",
+      "attribution_and_notes": "Selected by the best-free imagery review. pass_stable_operating_campus Required credit: Source: GeoSN, dl-de/by-2-0; SN DOP 020 RGB; photographed March 19 and April 7, 2024; cropped and annotated by the authors.",
+      "campus_id": "AIFAB-026",
+      "campus_name": "Dresden Fab 1 campus",
+      "citation_sources": [
+        {
+          "access_date": "2026-08-23",
+          "publication_date": "",
+          "publisher": "Landesamt für Geobasisinformation Sachsen (GeoSN)",
+          "source_id": "AIIMGSRC-GEOSN-GFDRESDEN-20240319-0407",
+          "title": "SN DOP 020 RGB",
+          "url": "https://geomis.sachsen.de/geomis-client/?lang=de#/datasets/iso/1d088a9c-a3bb-4682-a3cb-10129e2f2be0"
+        }
+      ],
+      "collection": "SN DOP 020 RGB",
+      "imagery_id": "AIIMGSRC-GEOSN-GFDRESDEN-20240319-0407",
+      "license_or_terms_url": "https://www.geodaten.sachsen.de/rechtsgrundlagen-und-nutzungsbedingungen-4509.html",
+      "sensor": "Aerial orthophoto",
+      "standalone_public_git_distribution": false
+    },
+    {
+      "acquisition_datetime_utc": "",
+      "asset_path": "assets/campus-imagery/aifab-027.png",
+      "asset_sha256": "1f9abc1a1b57c7f0928bc1e0630a3e1a3dbab45df48e2e2bef7a93cf1b771059",
+      "attribution_and_notes": "Selected by the best-free imagery review. pass_current_construction_depicted Required credit: State of Ohio, Ohio Statewide Imagery Program, Most Current Imagery service; 2025 three-inch imagery over the campus with 2023 peripheral edge fill; cropped and annotated by the authors.",
+      "campus_id": "AIFAB-027",
+      "campus_name": "Ohio One campus",
+      "citation_sources": [
+        {
+          "access_date": "2026-08-23",
+          "publication_date": "",
+          "publisher": "State of Ohio, Ohio Statewide Imagery Program",
+          "source_id": "AIIMGSRC-OHIO-OSIP-OHIOONE-2025-2023",
+          "title": "Ohio OSIP Most Current Imagery",
+          "url": "https://maps.ohio.gov/image/rest/services/osip_most_current/ImageServer"
+        }
+      ],
+      "collection": "Ohio OSIP Most Current Imagery",
+      "imagery_id": "AIIMGSRC-OHIO-OSIP-OHIOONE-2025-2023",
+      "license_or_terms_url": "https://gis1.oit.ohio.gov/geodatadownload/",
+      "sensor": "Aerial orthophoto",
+      "standalone_public_git_distribution": false
+    },
+    {
+      "acquisition_datetime_utc": "",
+      "asset_path": "assets/campus-imagery/aifab-028.png",
+      "asset_sha256": "d0207a4b58401079f0b49b95eae13033666bfa7025beadce54051056395a1a42",
+      "attribution_and_notes": "Selected by the best-free imagery review. Single deliberately initiated bounded Export Web Map print-task rendering; no exportTiles call or XYZ tile harvesting; noncommercial publication with adjacent attribution. Required credit: Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community. Local imagery: Vantor Vivid Advanced (WV02), source dated 2026-01-11, Raster Basemaps 2026.R06. Map image is the intellectual property of Esri and is used herein under license. Copyright © 2026 Esri and its licensors. All rights reserved. Cropped and annotated by the authors. Re-exported on September 27, 2026 with the same bounded method, centered on the corrected campus coordinate.",
+      "campus_id": "AIFAB-028",
+      "campus_name": "Beijing Jingcheng campus",
+      "citation_sources": [
+        {
+          "access_date": "2026-09-27",
+          "publication_date": "",
+          "publisher": "Esri",
+          "source_id": "AIIMGSRC-ESRIWORLD-SMICBEIJING-20260111",
+          "title": "World Imagery",
+          "url": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9"
+        }
+      ],
+      "collection": "World Imagery",
+      "imagery_id": "AIIMGSRC-ESRIWORLD-SMICBEIJING-20260111",
+      "license_or_terms_url": "https://www.esri.com/content/dam/esrisites/en-us/media/legal/terms-and-conditions/website-terms.pdf",
+      "sensor": "Satellite or aerial basemap image",
+      "standalone_public_git_distribution": false
+    },
+    {
+      "acquisition_datetime_utc": "",
+      "asset_path": "assets/campus-imagery/aifab-029.png",
+      "asset_sha256": "61179cfec2d7de5fadd40c8d31c58be53a031ef5dee8329fc04fdb208bf6f5fa",
+      "attribution_and_notes": "Selected by the best-free imagery review. Single deliberately initiated bounded Export Web Map print-task rendering; no exportTiles call or XYZ tile harvesting; noncommercial publication with adjacent attribution. Required credit: Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community. Local imagery: Vantor Vivid Advanced (GE01), source dated 2022-09-16, Raster Basemaps 2025.R06; Vantor Vivid Advanced (WV03), source dated 2024-09-15, Raster Basemaps 2025.R06. Map image is the intellectual property of Esri and is used herein under license. Copyright © 2026 Esri and its licensors. All rights reserved. Cropped and annotated by the authors.",
+      "campus_id": "AIFAB-029",
+      "campus_name": "Shenzhen Pingshan campus",
+      "citation_sources": [
+        {
+          "access_date": "2026-08-23",
+          "publication_date": "",
+          "publisher": "Esri",
+          "source_id": "AIIMGSRC-ESRIWORLD-SMICSHENZHEN-20240915",
+          "title": "World Imagery",
+          "url": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9"
+        }
+      ],
+      "collection": "World Imagery",
+      "imagery_id": "AIIMGSRC-ESRIWORLD-SMICSHENZHEN-20240915",
+      "license_or_terms_url": "https://www.esri.com/content/dam/esrisites/en-us/media/legal/terms-and-conditions/website-terms.pdf",
+      "sensor": "Satellite or aerial basemap image",
+      "standalone_public_git_distribution": false
+    },
+    {
+      "acquisition_datetime_utc": "",
+      "asset_path": "assets/campus-imagery/aifab-030.png",
+      "asset_sha256": "938ff2b2b94fd5b06af01e5fcd1662d6d82d561b71c8e84c39b204d76c06d3c0",
+      "attribution_and_notes": "Selected by the best-free imagery review. Single deliberately initiated bounded Export Web Map print-task rendering; no exportTiles call or XYZ tile harvesting; noncommercial publication with adjacent attribution. Required credit: Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community. Local imagery: Vantor Vivid Advanced (LG02), source dated 2025-04-13, Raster Basemaps 2025.R10; Vantor Vivid Advanced (LG04), source dated 2025-04-15, Raster Basemaps 2025.R10; Vantor Vivid Advanced (LG02), source dated 2025-07-04, Raster Basemaps 2025.R10. Map image is the intellectual property of Esri and is used herein under license. Copyright © 2026 Esri and its licensors. All rights reserved. Cropped and annotated by the authors.",
+      "campus_id": "AIFAB-030",
+      "campus_name": "Shanghai Lingang campus",
+      "citation_sources": [
+        {
+          "access_date": "2026-08-23",
+          "publication_date": "",
+          "publisher": "Esri",
+          "source_id": "AIIMGSRC-ESRIWORLD-SMICLINGANG-20250413",
+          "title": "World Imagery",
+          "url": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9"
+        }
+      ],
+      "collection": "World Imagery",
+      "imagery_id": "AIIMGSRC-ESRIWORLD-SMICLINGANG-20250413",
+      "license_or_terms_url": "https://www.esri.com/content/dam/esrisites/en-us/media/legal/terms-and-conditions/website-terms.pdf",
+      "sensor": "Satellite or aerial basemap image",
+      "standalone_public_git_distribution": false
+    },
+    {
+      "acquisition_datetime_utc": "",
+      "asset_path": "assets/campus-imagery/aifab-031.png",
+      "asset_sha256": "1fb5bbb91f1a1b8f676a0b507e856389e4ebfbcba6e6698c4b75136cc3517c8c",
+      "attribution_and_notes": "Selected by the best-free imagery review. Single deliberately initiated bounded Export Web Map print-task rendering; no exportTiles call or XYZ tile harvesting; noncommercial publication with adjacent attribution. Required credit: Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community. Local imagery: Vantor Vivid Advanced (WV03), source dated 2025-05-16, Raster Basemaps 2026.R01. Map image is the intellectual property of Esri and is used herein under license. Copyright © 2026 Esri and its licensors. All rights reserved. Cropped and annotated by the authors.",
+      "campus_id": "AIFAB-031",
+      "campus_name": "Tianjin Xiqing campus",
+      "citation_sources": [
+        {
+          "access_date": "2026-08-23",
+          "publication_date": "",
+          "publisher": "Esri",
+          "source_id": "AIIMGSRC-ESRIWORLD-SMICTIANJIN-20250516",
+          "title": "World Imagery",
+          "url": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9"
+        }
+      ],
+      "collection": "World Imagery",
+      "imagery_id": "AIIMGSRC-ESRIWORLD-SMICTIANJIN-20250516",
+      "license_or_terms_url": "https://www.esri.com/content/dam/esrisites/en-us/media/legal/terms-and-conditions/website-terms.pdf",
+      "sensor": "Satellite or aerial basemap image",
+      "standalone_public_git_distribution": false
+    },
+    {
+      "acquisition_datetime_utc": "",
+      "asset_path": "assets/campus-imagery/aifab-032.png",
+      "asset_sha256": "e6eb697747a6e8045646d1bdc796d0b40cdb6da3e807457bff6ef2fd9c46ffbb",
+      "attribution_and_notes": "Selected by the best-free imagery review. Single deliberately initiated bounded Export Web Map print-task rendering; no exportTiles call or XYZ tile harvesting; noncommercial publication with adjacent attribution. Required credit: Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community. Local imagery: Vantor Vivid Advanced (LG04), source dated 2025-04-03, Raster Basemaps 2025.R08. Map image is the intellectual property of Esri and is used herein under license. Copyright © 2026 Esri and its licensors. All rights reserved. Cropped and annotated by the authors.",
+      "campus_id": "AIFAB-032",
+      "campus_name": "Wuxi Fab 7/Fab 9 campus",
+      "citation_sources": [
+        {
+          "access_date": "2026-08-23",
+          "publication_date": "",
+          "publisher": "Esri",
+          "source_id": "AIIMGSRC-ESRIWORLD-HUAHONGWUXI-20250403",
+          "title": "World Imagery",
+          "url": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9"
+        }
+      ],
+      "collection": "World Imagery",
+      "imagery_id": "AIIMGSRC-ESRIWORLD-HUAHONGWUXI-20250403",
+      "license_or_terms_url": "https://www.esri.com/content/dam/esrisites/en-us/media/legal/terms-and-conditions/website-terms.pdf",
+      "sensor": "Satellite or aerial basemap image",
+      "standalone_public_git_distribution": false
+    },
+    {
+      "acquisition_datetime_utc": "",
+      "asset_path": "assets/campus-imagery/aifab-033.png",
+      "asset_sha256": "a7e8f7e87961e6db8f1f433abb77227f72c21999aba7f85a8290eeb3a6c1ae2b",
+      "attribution_and_notes": "Selected by the best-free imagery review. Single deliberately initiated bounded Export Web Map print-task rendering; no exportTiles call or XYZ tile harvesting; noncommercial publication with adjacent attribution. Required credit: Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community. Local imagery: Vantor Vivid (LG01), source dated 2026-03-07, Raster Basemaps 2026.R07. Map image is the intellectual property of Esri and is used herein under license. Copyright © 2026 Esri and its licensors. All rights reserved. Cropped and annotated by the authors.",
+      "campus_id": "AIFAB-033",
+      "campus_name": "Dholera semiconductor fab campus",
+      "citation_sources": [
+        {
+          "access_date": "2026-08-23",
+          "publication_date": "",
+          "publisher": "Esri",
+          "source_id": "AIIMGSRC-ESRIWORLD-TATADHOLERA-20260307",
+          "title": "World Imagery",
+          "url": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9"
+        }
+      ],
+      "collection": "World Imagery",
+      "imagery_id": "AIIMGSRC-ESRIWORLD-TATADHOLERA-20260307",
+      "license_or_terms_url": "https://www.esri.com/content/dam/esrisites/en-us/media/legal/terms-and-conditions/website-terms.pdf",
+      "sensor": "Satellite or aerial basemap image",
+      "standalone_public_git_distribution": false
+    }
+  ],
+  "distribution_policy": "Campus plates are local build assets and are not committed as standalone image files. The attributed compiled PDF is the intended publication artifact; every underlying image remains subject to its provider's terms.",
+  "release_date": "2026-08-25",
+  "schema": "chip-fab-atlas-imagery-provenance"
+}
